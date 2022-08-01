@@ -1,6 +1,5 @@
 # CarExhibition
 
-
 This is a website for showing and saling Cars.
 
 ## Features
