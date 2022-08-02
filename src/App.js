@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import { login } from './app/slices/authSlice';
 import { useDispatch } from 'react-redux';
+import Motorcycle from './CategoriesPages/Motorcycle';
 
 import Navbar from './components/Navbar';
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="products" element={<Products />} />
         <Route path="Categories" element={<Categories />} />
         <Route path="products/:id" element={<Product />} />
+        <Route path="Motorcycle" element={<Motorcycle />} />
       </Routes>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 export default function HeroSection() {
   return (
     <div className="container mx-auto grid grid-cols-1  md:grid-cols-2  mt-8 md:mt-10 ">
@@ -15,12 +15,12 @@ export default function HeroSection() {
           numquam debitis amet mollitia laborum.{' '}
         </p>
         <div className="mt-10">
-          <button className="shadow-md hover:shadow-lg bg-indigo-600 text-white px-6 py-4 rounded-lg text-xl font-semibold mr-4 sm:mb-2  ">
-            View Products
-          </button>
-          <button className="shadow-md hover:shadow-lg bg-white text-indigo-600 px-6 py-4 rounded-lg text-xl font-semibold">
+          <Link to="/Categories"   className="shadow-md hover:shadow-lg bg-indigo-600 text-white px-6 py-4 rounded-lg text-xl font-semibold mr-4 sm:mb-2  ">
             View Categories
-          </button>
+          </Link >
+          {/* <button className="shadow-md hover:shadow-lg bg-white text-indigo-600 px-6 py-4 rounded-lg text-xl font-semibold">
+            View Categories
+          </button> */}
         </div>
       </div>
       <div className="bg-red-300 ">
