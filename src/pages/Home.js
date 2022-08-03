@@ -7,6 +7,7 @@ export default function Home() {
     <Layout>
       <HeroSection />
       <CategoriesSection />
+      
     </Layout>
   );
 }

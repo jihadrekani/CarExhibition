@@ -1,7 +1,10 @@
 import React from 'react'
+import Layout from '../layouts/MainLayout';
 
 export default function classic() {
   return (
-    <div>classic</div>
+    <Layout>
+      
+    </Layout>
   )
 }

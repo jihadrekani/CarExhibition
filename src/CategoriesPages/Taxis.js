@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Layout from '../layouts/MainLayout';
 export default function Taxis() {
   return (
-    <div>Taxis</div>
+    <Layout>
+      
+    </Layout>
   )
 }

@@ -29,24 +29,24 @@ const callouts = [
   {
     type: 'Sports',
     imageSrc: 'https://images.unsplash.com/photo-1573661687979-b1fe429b9da3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
-    href: '#',
+    href: '/Sports',
   },
   {
-    type: 'Private Car',
+    type: 'PrivateCar',
     imageSrc: 'https://images.unsplash.com/photo-1604054094723-3a949e4a8993?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80',
-    href: '#',
+    href: '/PrivateCar',
   }, {
     type: 'Taxis',
     imageSrc: 'https://img.freepik.com/free-photo/closeup-shot-taxi-sign-placed_181624-13961.jpg?w=740&t=st=1659429192~exp=1659429792~hmac=1a00d6ffd0eaba13b8b2a2dd17015d60f47082d3c46b8b2cdf6ad0c95afeebfc',
-    href: '#',
+    href: '/Taxis',
   }, {
     type: 'Buses',
     imageSrc: 'https://visor.ph/wp-content/uploads/2018/10/toyota-hiace-commuter-main1.jpg',
-    href: '#',
+    href: '/Buses',
   }, {
     type: 'classic',
     imageSrc: 'https://www.focus2move.com/wp-content/uploads/2020/08/Morgan-Plus_Four-2021-1024-01.jpg',
-    href: '#',
+    href: '/classic',
   },
 ]
 
