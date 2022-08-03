@@ -3,7 +3,13 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import { login } from './app/slices/authSlice';
 import { useDispatch } from 'react-redux';
+
 import Motorcycle from './CategoriesPages/Motorcycle';
+import Taxis from './CategoriesPages/Taxis';
+import Buses from './CategoriesPages/Buses'
+import Classic from './CategoriesPages/Classic'
+import PrivateCar from './CategoriesPages/PrivateCar'
+import Sports from './CategoriesPages/Sports'
 
 import Navbar from './components/Navbar';
 
@@ -38,6 +44,14 @@ function App() {
         <Route path="Categories" element={<Categories />} />
         <Route path="products/:id" element={<Product />} />
         <Route path="Motorcycle" element={<Motorcycle />} />
+        <Route path="Taxis" element={<Taxis />} />  
+        <Route path="Buses" element={<Buses />} /> 
+        <Route path="Classic" element={<Classic />} /> 
+        <Route path="PrivateCar" element={<PrivateCar />} /> 
+        <Route path="Sports" element={<Sports />} /> 
+        
+        
+         
       </Routes>
     </div>
   );
