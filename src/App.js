@@ -21,7 +21,6 @@ import Register from './pages/Register';
 import Products from './pages/Products';
 import Product from './pages/Product';
 import Categories from './pages/Categories';
-
 function App() {
   const dispatch = useDispatch();
 
