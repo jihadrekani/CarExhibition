@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ReactCarousel from './ReactCarousel';
 export default function HeroSection() {
   return (
     <div className="container mx-auto grid grid-cols-1  md:grid-cols-2  mt-8 md:mt-10 ">
@@ -24,12 +25,16 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="bg-red-300 ">
-        <img
-          className="h-full w-auto object-cover"
+        {/* <img
+          className="h-full w-auto object-cover rounded"
           src="https://images.unsplash.com/photo-1614026480209-cd9934144671?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
           alt="woman holding bags while shopping"
-        />
+        /> */}
+
+       <ReactCarousel />
+
       </div>
     </div>
   );
 }
+ 

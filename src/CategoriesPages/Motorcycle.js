@@ -158,7 +158,6 @@ export default function Motorcycle() {
             <p className='ml-2'> {user.year}</p>
             <p className='ml-2'> {user.origin}</p>
             <button className='inline-block m-1 px-1.5 py-1.5 bg-gray-800 text-white font-medium text-[12px] leading-tight  rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out float-right'>More Details</button>
-
             
           </div>
         );

@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function RatingStars({ rating }) {
   return (
-    <div class="flex items-center">
+    <div className="flex items-center">
       rating: {rating}
       {rating > 0 && (
         <svg
           aria-hidden="true"
-          class="w-5 h-5 text-yellow-400"
+          className="w-5 h-5 text-yellow-400"
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,7 @@ export default function RatingStars({ rating }) {
       {rating > 1 && (
         <svg
           aria-hidden="true"
-          class="w-5 h-5 text-yellow-400"
+          className="w-5 h-5 text-yellow-400"
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ export default function RatingStars({ rating }) {
       {rating > 2 && (
         <svg
           aria-hidden="true"
-          class="w-5 h-5 text-yellow-400"
+          className="w-5 h-5 text-yellow-400"
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export default function RatingStars({ rating }) {
       {rating > 3 && (
         <svg
           aria-hidden="true"
-          class="w-5 h-5 text-yellow-400"
+          className="w-5 h-5 text-yellow-400"
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ export default function RatingStars({ rating }) {
       {rating > 4 && (
         <svg
           aria-hidden="true"
-          class="w-5 h-5 text-yellow-400"
+          className="w-5 h-5 text-yellow-400"
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ export default function RatingStars({ rating }) {
       )}
       {/* <svg
         aria-hidden="true"
-        class="w-5 h-5 text-gray-300 dark:text-gray-500"
+        className="w-5 h-5 text-gray-300 dark:text-gray-500"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"

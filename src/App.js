@@ -3,8 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import { login } from './app/slices/authSlice';
 import { useDispatch } from 'react-redux';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import Motorcycle from './CategoriesPages/Motorcycle';
+import MotorCycle from './CategoriesPages/Motorcycle';
 import Taxis from './CategoriesPages/Taxis';
 import Buses from './CategoriesPages/Buses'
 import Classic from './CategoriesPages/Classic'
@@ -42,7 +43,7 @@ function App() {
         <Route path="products" element={<Products />} />
         <Route path="Categories" element={<Categories />} />
         <Route path="products/:id" element={<Product />} />
-        <Route path="Motorcycle" element={<Motorcycle />} />
+        <Route path="MotorCycle" element={<MotorCycle />} />
         <Route path="Taxis" element={<Taxis />} />  
         <Route path="Buses" element={<Buses />} /> 
         <Route path="Classic" element={<Classic />} /> 
