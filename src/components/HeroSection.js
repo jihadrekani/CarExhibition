@@ -24,7 +24,7 @@ export default function HeroSection() {
           </button> */}
         </div>
       </div>
-      <div className="bg-red-300 ">
+      <div className=" ">
         {/* <img
           className="h-full w-auto object-cover rounded"
           src="https://images.unsplash.com/photo-1614026480209-cd9934144671?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
