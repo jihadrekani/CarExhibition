@@ -4,7 +4,6 @@ export default function ReactCarousel() {
     <Carousel infiniteLoop={true} autoPlay={true} interval={2500} showThumbs={false} showIndicators={false} showStatus={false}>
     <div className=''>
         <img className='rounded-xl' alt='item' src="https://images.unsplash.com/photo-1534093607318-f025413f49cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
-       <h2>hhhhhhhhh</h2>
     </div>
     <div>
         <img className='rounded-xl' alt='item' src="https://images.unsplash.com/photo-1577473404054-cbdf6c62ebaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />

@@ -16,7 +16,7 @@ export default function HeroSection() {
           numquam debitis amet mollitia laborum.{' '}
         </p>
         <div className="mt-10">
-          <Link to="/Categories"   className="shadow-md hover:shadow-lg bg-indigo-600 text-white px-6 py-4 rounded-lg text-xl font-semibold mr-4 sm:mb-2  ">
+          <Link to="/Categories"   className=" shadow-md hover:shadow-lg bg-indigo-600 text-white px-6 py-4 rounded-lg text-xl font-semibold mr-4 sm:mb-3  ">
             View Categories
           </Link >
           {/* <button className="shadow-md hover:shadow-lg bg-white text-indigo-600 px-6 py-4 rounded-lg text-xl font-semibold">
@@ -31,7 +31,7 @@ export default function HeroSection() {
           alt="woman holding bags while shopping"
         /> */}
 
-       <ReactCarousel />
+       <ReactCarousel  />
 
       </div>
     </div>
