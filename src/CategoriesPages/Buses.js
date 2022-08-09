@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Layout from '../layouts/MainLayout';
-import React, { useState } from 'react';
+import React, {  useState } from 'react';
 export default function Buses() {
   const Cars = [
     {id: 1,
