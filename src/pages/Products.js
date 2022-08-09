@@ -7,10 +7,13 @@ import Layout from '../layouts/MainLayout';
 // import RatingStars from '../components/RatingStars';
 // import LoadingSpinner from '../components/LoadingSpinner';
 
- export default function Product() {
+ export default function Products() {
 
 return(
       <Layout>
         
+
+
+
        </Layout>)}
 
