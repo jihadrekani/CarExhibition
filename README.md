@@ -7,20 +7,30 @@ This is a website for showing and saling Cars.
 - Authentication
 - State Management with RTK
 - Local Storage
-- Shopping Cart
-- Search and Filtering
+- Shopping Cart => yet
+- Search and Filtering => yet
 
-## API Used [Faker Store Api](https://vpic.nhtsa.dot.gov/api/vehicles/getallmanufacturers?format=json&page=2).
+## API Used [Faker Store Api](https://vpic.nhtsa.dot.gov/api/vehicles/getallmanufacturers?format=json&page=2) with hardcoding.
 
 
 ## Pages
+* worked on :
 - Home 
-- About
 - Categories
 - Login
-- Products
-- Register
+- Product
 - PrivateCar
 - Taxis
 - Buses
+- Motorcycle
 - Clasic Car
+- Sports Car
+
+
+
+
+* doesnt worked on yet :
+- About
+- Register
+- Products
+- Cart
