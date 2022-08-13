@@ -25,7 +25,7 @@ export default function Navbar() {
     console.log('the state of auth is:', auth);
   }, []);
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-800  right-0 top-0">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -86,20 +86,25 @@ export default function Navbar() {
                     >
                       <span className="sr-only">View notifications</span>
                       {/* <BellIcon className="h-6 w-6" aria-hidden="true" /> */}
-                      Logout
+                      Logout 
                     </Link>
                   </>
-                ) : (
+                ) : 
+
+                 
+                // the correct one
+                ( 
                   <Link
                     to="/login"
+                   
                     className="bg-indigo-600 p-1 rounded-full text-white px-4 hover:bg-indigo-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                   >
                     <span className="sr-only">View notifications</span>
                     {/* <BellIcon className="h-6 w-6" aria-hidden="true" /> */}
                     Login
+                    
                   </Link>
                 )}
-
                 {/* Profile dropdown */}
                 {/* <Menu as="div" className="ml-3 relative">
                   <div>

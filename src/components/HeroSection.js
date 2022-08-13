@@ -3,21 +3,20 @@ import { Link } from 'react-router-dom';
 import ReactCarousel from './ReactCarousel';
 export default function HeroSection() {
   return (
-    <div className="container mx-auto grid grid-cols-1  md:grid-cols-2  mt-8 md:mt-10 ">
-      <div className=" flex flex-col items-center justify-center">
+    <div className="container  mx-auto grid grid-cols-1  md:grid-cols-2  mt-8 md:mt-10 ">
+      <div className="  mt-3 flex flex-col items-center justify-center">
         {' '}
-        <h2 className="text-3xl  tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-4xl">
-          Find your Dream car <br/>
-          <span className="text-indigo-600">the choice is yours</span>
+        <h2 className="text-3xl  tracking-tight font-bold text-grey-600 sm:text-4xl md:text-4xl">
+        The city of Cars   <br/>
         </h2>
-        <p className="text-2xl sm:text-xl md:text-xl text-gray-500 mt-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure totam
-          perferendis ut neque aliquid, dolores nostrum reprehenderit, sunt
-          numquam debitis amet mollitia laborum.{' '}
+        
+        <img className='  animate-pulse mt-3  ' src="https://img.icons8.com/color/48/000000/fiat-500--v2.png"/>
+        <p className="text-2xl sm:text-xl md:text-xl sm:text-center md:text-center text-gray-500 mt-3">
+         We have all kinds of Cars. Enter the Category and find your dream Car.{' '}
         </p>
         <div className="mt-10">
-          <Link to="/Categories"   className=" shadow-md hover:shadow-lg bg-indigo-600 text-white px-6 py-4 rounded-lg  text-xl font-semibold  sm:mb-4  ">
-            View Categories
+          <Link to="/Categories"   className=" shadow-md hover:shadow-lg hover:bg-indigo-800 bg-indigo-600 text-white px-6 py-4 rounded-lg  text-xl font-semibold  sm:mb-4  ">
+            View Categories 
           </Link >
           {/* <button className="shadow-md hover:shadow-lg bg-white text-indigo-600 px-6 py-4 rounded-lg text-xl font-semibold">
             View Categories

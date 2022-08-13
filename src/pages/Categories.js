@@ -53,10 +53,10 @@ const callouts = [
 export default function Example() {
   return (
     <Layout>
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
-          <h2 className="text-2xl mb-6  font-extrabold text-gray-900">Categories</h2>
+        <div className="max-w-2xl  mx-auto  sm:py-4 md:py-4 lg:py-4 lg:max-w-none">
+          <h2 className="text-2xl mb-6   font-extrabold text-gray-900">Categories</h2>
 
           <div className="mt-1   space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
             {callouts.map((callout) => (
