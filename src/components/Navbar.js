@@ -19,6 +19,7 @@ export default function Navbar() {
     { name: 'Home', href: '/', current: true },
     { name: 'Products', href: '/products', current: false },
     { name: 'Categories', href: '/categories', current: false },
+    { name: 'AddProduct', href: '/addproduct', current: false },
   ]);
 
   useEffect(() => {

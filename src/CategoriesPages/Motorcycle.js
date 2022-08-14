@@ -1,9 +1,9 @@
-
+import AddProduct from '../components/Addproducts';
 import { Link } from 'react-router-dom';
 import Layout from '../layouts/MainLayout';
 import React, { useState } from 'react';
 export default function Motorcycle() {
-  const Cars = [
+  const Cars  = [
     {id: 1,
     name:"chevrolet chevelle malibu",
     image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
@@ -151,7 +151,6 @@ export default function Motorcycle() {
   return (
     <Layout >
       <h1 className=' container mt-5 text-center text-4xl font-semibold text-[#1f2937] font-serif'>Motorcycle </h1>
-      <div className='flex items-end justify-end mx-auto mt-[-43px] fixed top-[106px] right-0'> <img className='animate-spin   h-8   ' src='https://cdn-icons.flaticon.com/png/512/3573/premium/3573968.png?token=exp=1660244832~hmac=3654ae2e74a4c27efb1cf7923a411191' /></div>
     <div className='container   mx-auto p-10 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4  gap-5 object-fill'>
       {Cars.map((user, index) => {
         return (
@@ -170,6 +169,7 @@ export default function Motorcycle() {
 
       
     </div>
+    <AddProduct />
 </Layout>
 );
 }

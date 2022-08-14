@@ -4,7 +4,7 @@ import './App.css';
 import { login } from './app/slices/authSlice';
 import { useDispatch } from 'react-redux';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
+import AddProduct from './components/Addproducts';
 import MotorCycle from './CategoriesPages/Motorcycle';
 import Taxis from './CategoriesPages/Taxis';
 import Buses from './CategoriesPages/Buses'
@@ -37,6 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path='addproduct' element={<AddProduct />} />
         <Route path="cart" element={<Cart />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />

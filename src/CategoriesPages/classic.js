@@ -152,7 +152,6 @@ export default function Sports() {
     <Layout>
       
       <h1 className=' container mt-5 text-center text-4xl font-semibold text-[#1f2937] font-serif'>Classic Cars</h1>
-      <div className='flex items-end justify-end mx-auto mt-[-43px] fixed top-[106px] right-0'> <img className='animate-spin   h-8    ' src='https://cdn-icons.flaticon.com/png/512/3573/premium/3573968.png?token=exp=1660244832~hmac=3654ae2e74a4c27efb1cf7923a411191' /></div>
     <div className='container   mx-auto p-10 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4  gap-5 object-fill'>
       {Cars.map((user, index) => {
         return (
