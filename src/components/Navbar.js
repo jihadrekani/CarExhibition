@@ -17,7 +17,7 @@ export default function Navbar() {
 
   const [navigation, setNavigation] = useState([
     { name: 'Home', href: '/', current: true },
-    { name: 'Products', href: '/products', current: false },
+    // { name: 'Products', href: '/products', current: false },
     { name: 'Categories', href: '/categories', current: false },
     { name: 'AddProduct', href: '/addproduct', current: false },
   ]);

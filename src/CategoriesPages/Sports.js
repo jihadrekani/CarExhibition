@@ -150,7 +150,7 @@ export default function Sports() {
 
   return (
     <Layout>
-      <h1 className=' container mt-5 text-center text-4xl font-semibold text-[#1f2937] font-serif'>  Sports Cars   </h1>
+      <h1 className=' flex  justify-center mt-7  text-4xl font-semibold text-[#1f2937] font-serif'>  Sports Cars   </h1>
      
       {/* animate-spin */}
     <div className='container   mx-auto p-10 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4  gap-5 object-fill'>
