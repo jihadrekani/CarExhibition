@@ -6,8 +6,10 @@ const[category,setCategory]=React.useState('');
 const[company,setCompany]=React.useState('');
 const addProduct=()=>{
     console.log(name,price,category,company);}
+
     return(
-        <div className='bg-green-500 flex flex-col items-center justify-center h-screen'>
+      <div className='bg-green-500 flex flex-col items-center justify-center h-screen'>
+          <h2>this page will update with api</h2>
             
         <h1 className='mb-4 font-bold'> Add Your Products </h1>
         <input className='mb-3 rounded pl-1 bg-blue-200 border w-[500px] border-slate-50' type="text"placeholder='Enter product name'
