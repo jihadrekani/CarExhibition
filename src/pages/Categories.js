@@ -22,8 +22,8 @@ export  function Categories() {
 */
 const callouts = [
   {
-    type: 'Motorcycle',
-    imageSrc: 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+    type : 'Motorcycle',
+    imageSrc : 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
     href: '/Motorcycle',
   },
   {
@@ -52,7 +52,6 @@ const callouts = [
 
 export default function Example() {
   return (
-    <Layout>
     <div className="bg-gray-100 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl  mx-auto  sm:py-4 md:py-4 lg:py-4 lg:max-w-none">
@@ -60,15 +59,15 @@ export default function Example() {
 
           <div className="mt-1   space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
             {callouts.map((callout) => (
-              <div key={callout.type} className="group  relative ">
-                <div className="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                  <img
+              <div key={callout.type} className="group   relative ">
+                <div className="relative w-full  h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                  <img 
                     src={callout.imageSrc}
                     alt={callout.imageAlt}
-                    className="w-full h-full object-center object-cover"
+                    className="w-full  h-full object-center object-cover"
                   />
                 </div>
-                <h3 className="mt-6 text-sm text-gray-500">
+                <h3 className="mt-1 mb-4 text-center font-bold text-sm text-gray-700">
                   <a href={callout.href}>
                     <span className="absolute inset-0 " />
                     {callout.type}
@@ -80,6 +79,5 @@ export default function Example() {
         </div>
       </div>
     </div>
-    </Layout>
   )
 }
