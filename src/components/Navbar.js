@@ -26,7 +26,7 @@ export default function Navbar() {
     console.log('the state of auth is:', auth);
   }, []);
   return (
-    <Disclosure as="nav" className="bg-black  right-0 top-0">
+    <Disclosure as="nav" className="bg-black   right-0 top-0   ">
       {({ open }) => (
         <>
           <div className="max-w-7xl  mx-auto px-2 sm:px-6 lg:px-8">
