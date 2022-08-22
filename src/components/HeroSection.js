@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactCarousel from './ReactCarousel';
 import { Carousel } from 'react-responsive-carousel';
+import FilterForm from './FilterForm';
 
 export default function HeroSection() {
   return (
@@ -16,8 +17,9 @@ export default function HeroSection() {
         <p className="text-2xl sm:text-xl md:text-xl sm:text-center md:text-center text-gray-500 mt-3">
          We have all kinds of Cars. Enter the Category and find your dream Car.{' '}
         </p>
-        <div className="mt-10">
-          <Link to="/Categories"   className=" shadow-md hover:shadow-lg hover:bg-indigo-800 bg-indigo-600 text-white px-6 py-4 rounded-lg  text-xl font-semibold  sm:mb-4  ">
+        <FilterForm />
+        <div className="mt-4 mb-[45px]">
+          <Link to="/Categories"   className=" shadow-md hover:shadow-lg hover:bg-sky-600 bg-sky-800 text-white px-6 py-4 rounded-lg  text-xl font-semibold  sm:mb-4  ">
             View Categories 
           </Link >
           {/* <button className="shadow-md hover:shadow-lg bg-white text-indigo-600 px-6 py-4 rounded-lg text-xl font-semibold">
@@ -53,7 +55,7 @@ export default function HeroSection() {
   }
   ```
 --> */}
-<div className="  rounded">
+{/* <div className="  rounded">
   <div className="max-w-2xl  mt-[65px] mb-[45px] mx-auto py-16 bg-grey rounded border px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
   <h2 className='mb-5 font-bold text-center'>New arrivals</h2>
     <h2 className="sr-only">Products</h2>
@@ -95,7 +97,7 @@ export default function HeroSection() {
 
     </div>
   </div>
-</div>
+</div> */}
 
 
     </div>

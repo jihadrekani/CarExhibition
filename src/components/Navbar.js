@@ -63,7 +63,7 @@ export default function Navbar() {
                         to={item.href}
                         className={({ isActive }) =>
                           isActive
-                            ? 'bg-indigo-900 text-white px-3 py-2 rounded-md text-sm font-medium'
+                            ? 'bg-sky-800 text-white px-3 py-2 rounded-md text-sm font-medium'
                             : 'text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
                         }
                         aria-current={item.current ? 'page' : undefined}
@@ -82,7 +82,7 @@ export default function Navbar() {
                     </p>
                     <Link
                       to="/login"
-                      className="bg-indigo-600 p-1 rounded-full text-white px-4 hover:bg-indigo-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                      className="bg-sky-800 p-1 rounded-full text-white px-4 hover:bg-indigo-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                       onClick={() => dispatch(logout())}
                     >
                       <span className="sr-only">View notifications</span>
