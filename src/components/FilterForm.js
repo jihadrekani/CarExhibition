@@ -4,9 +4,9 @@ export default function FilterForm() {
   return (
     <div>
 
-<form className=' bg-sky-900 rounded w-[500px] mx-auto  mt-[67px] mb-12 grid place-items-center   '>
-<div className='    w-[320px] h-[220px]  text-center   '>
-  <h2 className='text-md text-white text-center mt-2 '>Search our extensive range of quality cars with prices to suit all budgets</h2>
+<form className=' bg-sky-900 rounded w-[500px] mx-auto pt-6 pb-6 mt-[17px] mb-12 grid place-items-center   '>
+<div className='    w-[320px] h-[260px]   text-center   '>
+  <h2 className='text-lg  text-white text-center  '>Search our extensive range of quality cars with prices to suit all budgets</h2>
 <select className='rounded w-[250px] mt-6 mb-3 bg-sky-700 text-white border-solid border border-sky-600' id="Any type">
   <option value="Any make" selected>Any make</option>
   <option value="Audi">Audi</option>
@@ -19,7 +19,7 @@ export default function FilterForm() {
   <option value="Jaguar">Jaguar</option>
   <option value="Jeep">Jeep</option>
   <option value="Kia">Kia</option>
-  <option value="Land Rover">VW</option>
+  <option value="Land Rover">Land Rover</option>
   <option value="Lexus" >Lexus</option>
   <option value="Mazda">Mazda</option>
   <option value="Mercedes Benz">Mercedes Benz</option>
