@@ -12,31 +12,26 @@ export default function Product() {
     <Carousel infiniteLoop={true} autoPlay={true} interval={2500} showThumbs={false} showIndicators={false} showStatus={false}>
     <div>
         <img className='  rounded-xl ' alt='item' src="https://images.unsplash.com/photo-1534093607318-f025413f49cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
-       <p className='font-semibold mt-3'>Color : Yellow</p>
     </div>
 
     
     <div>
         <img className='  rounded-xl' alt='item' src="https://images.unsplash.com/photo-1605521044601-232b0d737ca9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" />
-       <p className='font-semibold mt-3'>Weight : 850 KG</p>
         
     </div>
 
     <div>
         <img className='  rounded-xl' alt='item' src="https://images.unsplash.com/photo-1621964190879-7b94f8865973?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
-        <p className='font-semibold mt-3'>Cylinders : 6</p>
     
     </div>
 
      <div>
         <img className='  rounded-xl' alt='item' src="https://images.unsplash.com/photo-1533922598206-a1a2594e5873?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80" />
-        <p className='font-semibold mt-3'>Horsepower : 300 hp</p>
         
     </div>
 
     <div>
         <img className='  rounded-xl' alt='item' src="https://images.unsplash.com/photo-1480899867580-7a253ea5b8e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80" />
-        <p className='font-semibold mt-3'>Inside Details </p>
         
         
   </div>
@@ -53,6 +48,46 @@ export default function Product() {
 
 
 </div> */}
+
+
+
+<div className='text-2xl font-bold   mt-4'>Range Rover Sport svr 2022 <span className='ml-[270px] text-red-500'>115,500$</span></div>
+<div className='flex  mt-6 '> 
+  <span className='text-red-500 '><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+</svg>
+</span>
+  <span className='text-xl'> Duhok</span>
+</div>
+<div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-4 gap-8">
+                    <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"  > <h2 className='mt-3'>Automatic</h2> <img alt="transmission" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/transmission.svg"></img>  </div>
+                    <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>6 cylinder</h2> <img alt="cylinder" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/piston.svg"></img></div>
+                    <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>Engine, 3.6</h2> <img alt="engine" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/engine.svg"></img></div>
+                    <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>Gasoline</h2> <img alt="gasoline" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/gas-station.svg"></img></div>
+                    <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>Iraq</h2> <img alt="global" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/global.svg"></img></div>
+                    <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>0 km</h2> <img alt="milage" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/millage.svg"></img></div>
+
+                </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {/* <!-- component --> */}
 <h2 className='font-bold text-3xl mt-10 mb-7'> Contact Us</h2>
@@ -83,7 +118,7 @@ export default function Product() {
   </div>
   <div className="md:flex md:items-center">
     <div className="md:w-1/3">
-      <button className="shadow bg-gray-800 hover:bg-gray-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+      <button className="shadow mb-4 bg-gray-800 hover:bg-gray-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
         Send
       </button>
     </div>
