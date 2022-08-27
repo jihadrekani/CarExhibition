@@ -1,40 +1,92 @@
 
 import Layout from '../layouts/MainLayout';
 import React from 'react'
-
 import { Carousel } from 'react-responsive-carousel';
+
+import {
+  EmailShareButton,
+  FacebookShareButton,
+  InstapaperShareButton,
+  LinkedinShareButton,
+  PinterestShareButton,
+  TelegramShareButton,
+  TwitterShareButton,
+  ViberShareButton,
+  WhatsappShareButton,
+} from "react-share";
+
+import {
+  EmailIcon,
+  FacebookIcon,
+  FacebookMessengerIcon,
+  HatenaIcon,
+  InstapaperIcon,
+  LineIcon,
+  LinkedinIcon,
+  LivejournalIcon,
+  MailruIcon,
+  OKIcon,
+  PinterestIcon,
+  PocketIcon,
+  RedditIcon,
+  TelegramIcon,
+  TumblrIcon,
+  TwitterIcon,
+  ViberIcon,
+  VKIcon,
+  WeiboIcon,
+  WhatsappIcon,
+  WorkplaceIcon
+} from "react-share";
 
 export default function Product() {
   return (
     <Layout>
 
  <div className='max-w-full h-auto w-[700px] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1   xl:grid-cols-1 h-screen place-items-center container mx-auto mt-5 ml-auto '>
-    <Carousel infiniteLoop={true} autoPlay={true} interval={2500} showThumbs={false} showIndicators={false} showStatus={false}>
-    <div>
-        <img className='  rounded-xl ' alt='item' src="https://images.unsplash.com/photo-1534093607318-f025413f49cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
-    </div>
-
+    <Carousel  infiniteLoop={true} autoPlay={true} interval={2500} showThumbs={false} showIndicators={false} showStatus={false}>
+    
     
     <div>
-        <img className='  rounded-xl' alt='item' src="https://images.unsplash.com/photo-1605521044601-232b0d737ca9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" />
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29773-medium.jpg" />
         
     </div>
 
     <div>
-        <img className='  rounded-xl' alt='item' src="https://images.unsplash.com/photo-1621964190879-7b94f8865973?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29774-medium.jpg" />
     
     </div>
 
      <div>
-        <img className='  rounded-xl' alt='item' src="https://images.unsplash.com/photo-1533922598206-a1a2594e5873?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80" />
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29775-medium.jpg" />
         
     </div>
 
     <div>
-        <img className='  rounded-xl' alt='item' src="https://images.unsplash.com/photo-1480899867580-7a253ea5b8e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80" />
-        
-        
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29783-medium.jpg" /> 
   </div>
+  <div>
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29784-medium.jpg" /> 
+  </div> 
+   <div>
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29786-medium.jpg" /> 
+  </div>
+  <div>
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29791-medium.jpg" /> 
+  </div>
+  <div>
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29792-medium.jpg" /> 
+  </div>
+  <div>
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29794-medium.jpg" /> 
+  </div>
+  <div>
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29802-medium.jpg" /> 
+  </div>
+  <div>
+        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29803-medium.jpg" /> 
+  </div>
+  
    
 </Carousel>
 {/* <div>
@@ -50,7 +102,6 @@ export default function Product() {
 </div> */}
 
 
-
 <div className='text-2xl font-bold   mt-4'>Range Rover Sport svr 2022 <span className='ml-[270px] text-red-500'>115,500$</span></div>
 <div className='flex  mt-6 '> 
   <span className='text-red-500 '><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -61,17 +112,56 @@ export default function Product() {
   <span className='text-xl'> Duhok</span>
 </div>
 <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-4 gap-8">
-                    <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"  > <h2 className='mt-3'>Automatic</h2> <img alt="transmission" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/transmission.svg"></img>  </div>
+                    <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2  text-center"  > <h2 className='mt-3'>Automatic</h2> <img alt="transmission" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/transmission.svg"></img>  </div>
                     <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>6 cylinder</h2> <img alt="cylinder" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/piston.svg"></img></div>
                     <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>Engine, 3.6</h2> <img alt="engine" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/engine.svg"></img></div>
-                    <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>Gasoline</h2> <img alt="gasoline" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/gas-station.svg"></img></div>
+                    <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>Gasoline</h2> <img alt="Fuel" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/gas-station.svg"></img></div>
                     <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>Iraq</h2> <img alt="global" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/global.svg"></img></div>
                     <div className="rounded border-gray-300 dark:border-gray-700 border-dashed border-2 h-24 text-center"><h2 className='mt-3'>0 km</h2> <img alt="milage" className='h-[55px] w-[55px] mx-auto' src="https://www.iqcars.net/images/mobile-car-detail/millage.svg"></img></div>
 
                 </div>
             
 
+{/* extra informations */}
 
+
+<div class="container mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  place-items-center pt-6 gap-2">
+                    <div class="rounded text- pl-2 pr-1  "> Color:<span className='ml-[200px]'>white</span>  </div>
+                    <div class="rounded text- pl-2 pr-1  ">Year:<span className='ml-[207px]'>2022</span></div>
+                    <div class="rounded text- pl-2 pr-1 ">Kilometers:<span className='ml-[165px]'>2,159</span></div>
+                    <div class="rounded text- pl-2 pr-1 ">Year:<span className='ml-[208px]'>2022</span></div>
+
+<div className='mt-7'>
+
+<TwitterShareButton
+              url={window.location.href}
+              title="example title"
+              via="jihadissaa"
+              hashtags={['jihadissa', 'wecode', 'javascript', 'sharing', 'content']}
+            >
+              {' '}
+              <TwitterIcon size={45} round={true} />
+            </TwitterShareButton>
+
+            <LinkedinShareButton url={window.location.href}>
+              <LinkedinIcon size={45} round />
+            </LinkedinShareButton>
+
+            <FacebookShareButton url={window.location.href}>
+              <FacebookIcon size={45} round />
+            </FacebookShareButton>
+
+            <TelegramShareButton url={window.location.href}>
+              <TelegramIcon size={45} round />
+            </TelegramShareButton>
+
+            <WhatsappShareButton url={window.location.href}>
+              <WhatsappIcon size={45} round />
+            </WhatsappShareButton>
+
+</div>
+                </div>
+            
 
 
 

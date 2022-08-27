@@ -20,6 +20,8 @@ export default function Navbar() {
     // { name: 'Products', href: '/products', current: false },
     { name: 'Categories', href: '/categories', current: false },
     { name: 'AddProduct', href: '/addproduct', current: false },
+    { name: 'About', href: '/about', current: false },
+
   ]);
 
   useEffect(() => {
@@ -44,7 +46,7 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
+                  <img 
                     className="block lg:hidden h-8 w-auto"
                     src="https://img.icons8.com/dusk/64/000000/car--v1.png"
                     alt="Jihad Cars"

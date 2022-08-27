@@ -6,3 +6,7 @@ body {
   background-color: rgb(230, 230, 230);
 }
 
+.map-container {
+  height: 750px;
+  width: 750px;
+}
