@@ -6,7 +6,22 @@ body {
   background-color: rgb(230, 230, 230);
 }
 
-.map-container {
-  height: 750px;
-  width: 750px;
+
+
+.bg-img{
+  background-image: url("../images/copy.jpg");
+  min-height: 250px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+
+.filterform{
+  background-image: url("https://images.unsplash.com/photo-1627727669629-06af2a397072?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGJsYWNrJTIwY2FyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+background-repeat: no-repeat;
+background-size:cover  ; 
+
+}
+.filterform:hover{
+  box-shadow: -1px -1px 5px 5px #4a489b; 
 }

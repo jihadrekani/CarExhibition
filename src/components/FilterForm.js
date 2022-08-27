@@ -4,10 +4,10 @@ export default function FilterForm() {
   return (
     <div>
 
-<form className=' bg-sky-900 rounded xl:mb-[45px] w-[500px] mx-auto pt-6 pb-6 mt-[17px] mb-12 grid place-items-center   '>
+<form className=' filterform bg-zinc-900 rounded lg:mt-6 xl:mb-[45px] w-[500px] mx-auto  pb-6 mt-[17px] mb-12 grid place-items-center   '>
 <div className='    w-[320px] h-[260px]   text-center   '>
-  <h2 className='text-lg  text-white text-center  '>Search our extensive range of quality cars with prices to suit all budgets</h2>
-<select className='rounded w-[250px] mt-6 mb-3 bg-sky-700 text-white border-solid border border-sky-600' id="Any type">
+  <h2 className='text-lg  text-white text-center font-sans  '>Search our extensive range of quality cars with prices to suit all budgets</h2>
+<select className='rounded w-[250px]  hover:bg-sky-600 mt-2 mb-3 bg-sky-700 text-white border-solid border border-sky-600' id="Any type">
   <option value="Any make" selected>Any make</option>
   <option value="Audi">Audi</option>
   <option value="BMW">BMW</option>
@@ -31,7 +31,7 @@ export default function FilterForm() {
 </select>
 
 <br/>
-<select className='w-[250px] rounded mb-3 bg-sky-700 text-white border-solid border border-sky-600' id="price">
+<select className='w-[250px] rounded mb-3 bg-sky-700  hover:bg-sky-600 text-white border-solid border border-sky-600' id="price">
 <option value="price min" selected>price (min)</option>
   <option value="10,000$">from 10,000$</option>
   <option value="audi" >from 20,000$</option>
@@ -55,7 +55,7 @@ export default function FilterForm() {
   <option value=" 10,000$" >from 200,000$</option>
 </select>
 
-<select className='w-[250px] rounded bg-sky-700 text-white border-solid border border-sky-600' id="price">
+<select className='w-[250px] rounded bg-sky-700 text-white border-solid border border-sky-600  hover:bg-sky-600' id="price">
 <option value="price max" selected>price (max)</option>
   <option value="10,000$">from 10,000$</option>
   <option value="audi" >from 20,000$</option>

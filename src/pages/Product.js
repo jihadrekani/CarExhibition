@@ -6,44 +6,27 @@ import { Carousel } from 'react-responsive-carousel';
 import {
   EmailShareButton,
   FacebookShareButton,
-  InstapaperShareButton,
   LinkedinShareButton,
-  PinterestShareButton,
   TelegramShareButton,
   TwitterShareButton,
-  ViberShareButton,
   WhatsappShareButton,
 } from "react-share";
 
 import {
   EmailIcon,
   FacebookIcon,
-  FacebookMessengerIcon,
-  HatenaIcon,
-  InstapaperIcon,
-  LineIcon,
   LinkedinIcon,
-  LivejournalIcon,
-  MailruIcon,
-  OKIcon,
-  PinterestIcon,
-  PocketIcon,
-  RedditIcon,
   TelegramIcon,
-  TumblrIcon,
   TwitterIcon,
-  ViberIcon,
-  VKIcon,
-  WeiboIcon,
   WhatsappIcon,
-  WorkplaceIcon
+  
 } from "react-share";
 
 export default function Product() {
   return (
     <Layout>
 
- <div className='max-w-full h-auto w-[700px] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1   xl:grid-cols-1 h-screen place-items-center container mx-auto mt-5 ml-auto '>
+ <div className='max-w-full h-auto w-[700px] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1   xl:grid-cols-1 h-screen place-items-center container mx-auto mt-12 ml-auto '>
     <Carousel  infiniteLoop={true} autoPlay={true} interval={2500} showThumbs={false} showIndicators={false} showStatus={false}>
     
     
@@ -159,24 +142,13 @@ export default function Product() {
               <WhatsappIcon size={45} round />
             </WhatsappShareButton>
 
+            <EmailShareButton url={window.location.href}>
+              <EmailIcon size={45} round />
+            </EmailShareButton>
+
 </div>
                 </div>
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 {/* <!-- component --> */}
