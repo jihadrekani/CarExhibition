@@ -6,11 +6,11 @@ This is a website for showing and saling Cars.
 
 - Authentication
 - State Management with RTK
-- Local Storage
+- Local Storage - yet
 - Shopping Cart => yet
-- Search and Filtering => yet
+- Search and Filtering 
 
-## API Used [Faker Store Api](https://vpic.nhtsa.dot.gov/api/vehicles/getallmanufacturers?format=json&page=2) with hardcoding.
+## hardcoding as an API.
 
 
 ## Pages
@@ -25,9 +25,6 @@ This is a website for showing and saling Cars.
 - Motorcycle
 - Clasic Car
 - Sports Car
-
-
-
 
 * doesnt worked on yet :
 - About

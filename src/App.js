@@ -11,6 +11,8 @@ import Buses from './CategoriesPages/Buses'
 import Classic from './CategoriesPages/Classic'
 import PrivateCar from './CategoriesPages/PrivateCar'
 import Sports from './CategoriesPages/Sports'
+import NewDeals from './pages/NewDeals';
+import NewDealsDetails from './pages/NewDealsDetails';
 
 import Navbar from './components/Navbar';
 
@@ -50,6 +52,8 @@ function App() {
         <Route path="Classic" element={<Classic />} /> 
         <Route path="PrivateCar" element={<PrivateCar />} /> 
         <Route path="Sports" element={<Sports />} /> 
+        <Route path="NewDeals" element={<NewDeals />} />
+        <Route path="NewDealsDetails" element={<NewDealsDetails />} />
 
         
         

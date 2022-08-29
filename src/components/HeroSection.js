@@ -87,7 +87,7 @@ export default function HeroSection() {
               <p className="mt-1 text-lg font-medium text-gray-900">$48500</p>
             </a>
 
-            <Link to='/New arrivals' className='bg-sky-800 text-center text-white hover:bg-sky-600 lg:h-6 md:ml-auto  lg:my-auto sm:h-6 sm:w-[80px] sm:mx-auto sm:my-auto  rounded-full  ' >see all</Link>
+            <Link to='/NewArrivals' className='bg-sky-800 text-center text-white hover:bg-sky-600 lg:h-6 md:ml-auto  lg:my-auto sm:h-6 sm:w-[80px] sm:mx-auto sm:my-auto  rounded-full  ' >see all</Link>
 
           </div>
         </div>
