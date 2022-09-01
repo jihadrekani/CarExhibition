@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 export default function NewDeals() {
   const Cars = [
     {id: 1,
+    
     name:"chevrolet chevelle malibu",
-    image:"https://th.bing.com/th/id/R.8b603f5a27831a35f810fea1f992cc78?rik=3bFAAF2ckTFi8Q&pid=ImgRaw&r=0",
+    image:"https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     miles_per_Gallon:18,
     cylinders:8,
     displacement:307,
@@ -20,7 +21,7 @@ export default function NewDeals() {
 
     {id: 2,
       name:"buick skylark 320",
-      image:"https://th.bing.com/th/id/R.8b603f5a27831a35f810fea1f992cc78?rik=3bFAAF2ckTFi8Q&pid=ImgRaw&r=0",
+      image:"https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       miles_per_Gallon:15,
       cylinders:8,
       displacement:350,
@@ -33,7 +34,7 @@ export default function NewDeals() {
       origin:"Germany"},
     {id: 3,
       name:"plymouth satellite",
-      image:"https://th.bing.com/th/id/R.8b603f5a27831a35f810fea1f992cc78?rik=3bFAAF2ckTFi8Q&pid=ImgRaw&r=0",
+      image:"https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       miles_per_Gallon:18,
       cylinders:8,
       displacement:318,
@@ -46,7 +47,7 @@ export default function NewDeals() {
       origin:"Japan"},
       { id: 4,
         name:"amc rebel sst",
-        image:"https://th.bing.com/th/id/R.8b603f5a27831a35f810fea1f992cc78?rik=3bFAAF2ckTFi8Q&pid=ImgRaw&r=0",
+        image:"https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         miles_per_Gallon:16,
         cylinders:8,
         displacement:304,
@@ -60,7 +61,7 @@ export default function NewDeals() {
      },
      {  id: 5,
         name:"ford torino",
-        image:"https://th.bing.com/th/id/R.8b603f5a27831a35f810fea1f992cc78?rik=3bFAAF2ckTFi8Q&pid=ImgRaw&r=0",
+        image:"https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         miles_per_Gallon:17,
         cylinders:8,
         displacement:302,
@@ -74,7 +75,7 @@ export default function NewDeals() {
      },
      {  id: 6,
         name:"ford galaxie 500",
-        image:"https://th.bing.com/th/id/R.8b603f5a27831a35f810fea1f992cc78?rik=3bFAAF2ckTFi8Q&pid=ImgRaw&r=0",
+        image:"https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         miles_per_Gallon:15,
         cylinders:8,
         displacement:429,
@@ -88,7 +89,7 @@ export default function NewDeals() {
      },
      {  id: 7,
         name:"chevrolet impala",
-        image:"https://th.bing.com/th/id/R.8b603f5a27831a35f810fea1f992cc78?rik=3bFAAF2ckTFi8Q&pid=ImgRaw&r=0",
+        image:"https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         miles_per_Gallon:14,
         cylinders:8,
         displacement:454,
@@ -102,7 +103,7 @@ export default function NewDeals() {
      },
      {id: 8,
       name:"ford maverick",
-      image:"https://th.bing.com/th/id/R.8b603f5a27831a35f810fea1f992cc78?rik=3bFAAF2ckTFi8Q&pid=ImgRaw&r=0",
+      image:"https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       miles_per_Gallon:21,
       cylinders:6,
       displacement:200,
@@ -112,7 +113,8 @@ export default function NewDeals() {
       year:"1970",
       oldprice:"133,000 $",
     newprice:"132,500 $",
-      origin:"USA"
+      origin:"USA",
+      
    },
   ];
 

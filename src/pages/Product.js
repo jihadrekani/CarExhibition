@@ -2,6 +2,7 @@
 import Layout from '../layouts/MainLayout';
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from 'react-router-dom';
 
 import {
   EmailShareButton,
@@ -72,17 +73,6 @@ export default function Product() {
   
    
 </Carousel>
-{/* <div>
-    <h2 className=' font-bold mb-3  ' to="jihadissa" >   Contact us </h2 >
-    <Link className='bg-blue-500 p-1 rounded-xl ' to={"https://www.facebook.com/jihad.rekani.33"}>facebook</Link>
-    <Link className='bg-red-500 p-1 rounded-xl ml-4 ' to={"https://instagram.com/jihadissaa?igshid=YmMyMTA2M2Y="}>Instagram</Link>
-    <Link className='bg-yellow-500 p-1 rounded-xl ml-4 ' to={"https://www.snapchat.com/add/jr_rekani?share_id=Sfj2M0jEv-Y&locale=en-IQ="}>Snapchat</Link>
-    <Link className='bg-red-700 p-1 rounded-xl ml-4 ' to={"https://youtube.com/channel/UCqTuGFIgQvIizAIivO7uArQ"}>Youtube</Link>
-    <Link className='bg-blue-700 p-1 rounded-xl ml-4 ' to={"https://www.linkedin.com/in/jihad-issa-618265197"}>linkedin</Link>
-    <Link className='bg-light-700 p-1  rounded-xl ml-4 border-solid border-2 border-indigo-600 ' to={"https://twitter.com/JiHadJR10?t=_Xx3ig57mn2rivB_uTYn1A&s=09"}>twitter</Link>
-
-
-</div> */}
 
 
 <div className='text-2xl font-bold   mt-4'>Range Rover Sport svr 2022 <span className='ml-[270px] text-red-500'>115,500$</span></div>
@@ -149,6 +139,11 @@ export default function Product() {
 </div>
                 </div>
             
+
+
+
+
+
 
 
 {/* <!-- component --> */}

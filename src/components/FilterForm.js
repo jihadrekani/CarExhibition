@@ -8,7 +8,7 @@ export default function FilterForm() {
 <div className='    w-[320px] h-[260px]   text-center   '>
   <h2 className='text-lg  text-white text-center font-sans  '>Search our extensive range of quality cars with prices to suit all budgets</h2>
 <select className='rounded w-[250px]  hover:bg-sky-600 mt-2 mb-3 bg-sky-700 text-white border-solid border border-sky-600' id="Any type">
-  <option value="Any make" selected>Any make</option>
+  <option value="Any make" defaultValue="selected">Any make</option>
   <option value="Audi">Audi</option>
   <option value="BMW">BMW</option>
   <option value="chevrolet">chevrolet</option>
@@ -32,7 +32,7 @@ export default function FilterForm() {
 
 <br/>
 <select className='w-[250px] rounded mb-3 bg-sky-700  hover:bg-sky-600 text-white border-solid border border-sky-600' id="price">
-<option value="price min" selected>price (min)</option>
+<option value="price min" defaultValue="selected">price (min)</option>
   <option value="10,000$">from 10,000$</option>
   <option value="audi" >from 20,000$</option>
   <option value=" 10,000$" >from 30,000$</option>
@@ -56,7 +56,7 @@ export default function FilterForm() {
 </select>
 
 <select className='w-[250px] rounded bg-sky-700 text-white border-solid border border-sky-600  hover:bg-sky-600' id="price">
-<option value="price max" selected>price (max)</option>
+<option value="price max" defaultValue="selected">price (max)</option>
   <option value="10,000$">from 10,000$</option>
   <option value="audi" >from 20,000$</option>
   <option value=" 10,000$" >from 30,000$</option>

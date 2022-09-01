@@ -22,7 +22,7 @@ import {
   
 } from "react-share";
 
-export default function NewDealsDetails() {
+export default function () {
   return (
     <Layout>
 
@@ -31,43 +31,43 @@ export default function NewDealsDetails() {
     
     
     <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29773-medium.jpg" />
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29773-medium.jpg" />
         
     </div>
 
     <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29774-medium.jpg" />
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29774-medium.jpg" />
     
     </div>
 
      <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29775-medium.jpg" />
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29775-medium.jpg" />
         
     </div>
 
     <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29783-medium.jpg" /> 
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29783-medium.jpg" /> 
   </div>
   <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29784-medium.jpg" /> 
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29784-medium.jpg" /> 
   </div> 
    <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29786-medium.jpg" /> 
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29786-medium.jpg" /> 
   </div>
   <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29791-medium.jpg" /> 
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29791-medium.jpg" /> 
   </div>
   <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29792-medium.jpg" /> 
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29792-medium.jpg" /> 
   </div>
   <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29794-medium.jpg" /> 
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29794-medium.jpg" /> 
   </div>
   <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29802-medium.jpg" /> 
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29802-medium.jpg" /> 
   </div>
   <div>
-        <img className='  rounded-xl' alt='item' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29803-medium.jpg" /> 
+        <img className='  rounded-xl' alt='newdealscar' src="https://f7432d8eadcf865aa9d9-9c672a3a4ecaaacdf2fee3b3e6fd2716.ssl.cf3.rackcdn.com/C2299/U8149/IMG_29803-medium.jpg" /> 
   </div>
   
    
