@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 export default function About() {
   return (
     <div className='mt-5'>
-      
-        <a className='bg-sky-700 rounded-xl p-1 ml-3 text-white w-[100px] flex ' href='/' ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mr-3 ml-1 w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
-        </svg>
-          Home</a>
+
+      <a className='bg-green-700 hover:bg-green-600  rounded-xl p-1 ml-3 text-white w-[100px] flex ' href='/' ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mr-3 ml-1 w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+      </svg>
+        Home</a>
       <section class="relative pt-32 pb-28 bg-green-700 overflow-hidden mt-6">
         <img class="absolute top-0 left-0" src="gradia-assets/elements/contact/radial3.svg" alt="" />
         <div class="relative z-10 container mx-auto px-4">
@@ -35,6 +35,42 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      {/* adress */}
+
+
+      <div class="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 mb-[100px]">
+
+        <div class="rounded border-gray-300 dark:border-gray-700  h-24">
+
+          <h2 className='text-center font-bold text-2xl mb-2 text-green-900'> Adress 1</h2>
+          <h2 className='text-center font-semibold'> Duhok Domis  </h2>
+          <h2 className='text-center font-semibold'>next to Sultan sweets</h2>
+          <div className='w-[200px] h-[200px] bg-green-700 mx-auto text-center flex justify-center items-center text-2xl font-semibold'> map here</div>
+
+        </div>   <div class="rounded border-gray-300 dark:border-gray-700  h-24">
+
+          <h2 className='text-center font-bold text-2xl mb-2 text-green-900'> Adress 1</h2>
+          <h2 className='text-center font-semibold'> Hawler   </h2>
+          <h2 className='text-center font-semibold'>next to hawler citadel </h2>
+          <div className='w-[200px] h-[200px] bg-green-700 mx-auto text-center flex justify-center items-center text-2xl font-semibold'> map here</div>
+
+        </div>
+        <div class="rounded border-gray-300 dark:border-gray-700  h-24">
+
+          <h2 className='text-center font-bold text-2xl mb-2 text-green-900'> Adress 1</h2>
+          <h2 className='text-center font-semibold'> Zakho   </h2>
+          <h2 className='text-center font-semibold'>infront of pira delal</h2>
+          <div className='w-[200px] h-[200px] bg-green-700 mx-auto text-center flex justify-center items-center text-2xl font-semibold mb-8'> map here</div>
+
+        </div>
+
+
+
+
+      </div>
+
+
     </div>
 
   );

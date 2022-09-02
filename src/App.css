@@ -10,7 +10,7 @@ body {
 
 .bg-img{
   background-image: url("../images/copy.jpg");
-  min-height: 250px;
+  min-height: 220px;
   position: relative;
   background-repeat: no-repeat;
   background-size:cover ;
