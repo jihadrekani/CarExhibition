@@ -34,4 +34,4 @@ const addProduct=()=>{
    
     )};
    
-export default AddProduct;
+export default AddProduct; 
