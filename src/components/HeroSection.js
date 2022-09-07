@@ -50,8 +50,8 @@ export default function HeroSection() {
   ```
 --> */}
       {<div className="  rounded">
-        <div className=" max-w-2xl  mt-[65px] mb-[45px] mx-auto py-16 bg-grey rounded border px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
-          <h2 className='mb-5 font-bold text-center text-2xl'>New arrivals</h2>
+        <div className=" max-w-2xl  mt-[65px] mb-[45px] mx-auto py-16 bg-grey hover:bg-gray-300 rounded border px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
+          <h2 className='mb-5 font-bold text-center text-2xl '>New arrivals</h2>
           <h2 className="sr-only">Products</h2>
 
           <div className=" grid  grid-cols-2 gap-y-10 sm:grid-cols-4  gap-x-6 lg:grid-cols-4 xl:grid-cols-4 xxl:grid-cols-4 xl:gap-x-8">
@@ -94,8 +94,8 @@ export default function HeroSection() {
       </div>}
 
 
-      <section className="text-gray-600 body-font">
-  <div className="container mt-[100px] px-5 py-24 mx-auto">
+      <section className="text-gray-600 body-font ">
+  <div className="container mt-[100px] px-5 py-24 mx-auto hover:bg-gray-300">
         <h2 className='font-bold text-black text-2xl text-center md:mb-8 mb-10 mt-[-135px] md:mt-[-90px] sm:mt-[-90px]'>Our statistics</h2>
     <div className="flex flex-wrap -m-4 text-center">
       <div className="p-4 sm:w-1/4 w-1/2">

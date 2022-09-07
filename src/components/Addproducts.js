@@ -27,7 +27,9 @@ const addProduct=()=>{
         <input className='' type={"file"} multiple ></input>
          <button className="bg-green-700 text-white border border hover:bg-green-500 rounded-xl py-[3px] px-[6px] mt-2" onClick={addProduct}>Add Product</button>
    
-   
+
+
+
    </div>
    
 
