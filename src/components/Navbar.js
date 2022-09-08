@@ -52,11 +52,13 @@ export default function Navbar() {
                     src="https://img.icons8.com/dusk/64/000000/car--v1.png"
                     alt="Jihad Cars"
                   />
-                  <img
+                   {/* <img
                     className="hidden lg:block h-8 w-auto "
                     src="https://img.icons8.com/dusk/64/000000/car--v1.png"
                     alt="Jihad Cars"
-                  />
+                  />  */}
+                  <Link to='/'>
+                  <h2 className='text-white ml-2 font-bold text-xl '>Duhok Cars</h2></Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6 ">
                   <div className="flex space-x-4 ">
@@ -85,7 +87,7 @@ export default function Navbar() {
                     </p>
                     <Link
                       to="/login"
-                      className="bg-sky-800 p-1 rounded-full text-white px-4 hover:bg-indigo-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                      className="bg-sky-800 p-1 rounded-full text-white px-4 hover:bg-sky-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                       onClick={() => dispatch(logout())}
                     >
                       <span className="sr-only">View notifications</span>
@@ -101,7 +103,7 @@ export default function Navbar() {
                   <Link
                     to="/login"
                    
-                    className="bg-indigo-600 p-1 rounded-full text-white px-4 hover:bg-indigo-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                    className="bg-sky-800 p-1 rounded-full text-white px-4 hover:bg-sky-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                   >
                     <span className="sr-only">View notifications</span>
                     {/* <BellIcon className="h-6 w-6" aria-hidden="true" /> */}
