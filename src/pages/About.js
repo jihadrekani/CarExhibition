@@ -5,10 +5,10 @@ export default function About() {
   return (
     <div className='mt-5'>
 
-      <a className='bg-green-700 hover:bg-green-600  rounded-xl p-1 ml-3 text-white w-[100px] flex ' href='/' ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mr-3 ml-1 w-6 h-6">
+      <Link to='/' className='bg-green-700 hover:bg-green-600  rounded-xl p-1 ml-3 text-white w-[100px] flex ' href='/' ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mr-3 ml-1 w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
       </svg>
-        Home</a>
+        Home</Link>
       <section class="relative pt-32 pb-28 bg-green-700 overflow-hidden mt-6">
         <img class="absolute top-0 left-0" src="gradia-assets/elements/contact/radial3.svg" alt="" />
         <div class="relative z-10 container mx-auto px-4">
