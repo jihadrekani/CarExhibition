@@ -1,7 +1,9 @@
 import React from 'react';
 import MainLayout from '../layouts/MainLayout';
+import { LeafletEvent, tileLayer } from 'leaflet';
 import { Link } from 'react-router-dom';
 export default function About() {
+  
   return (
     <div className='mt-5'>
 
@@ -37,7 +39,7 @@ export default function About() {
       </section>
 
       {/* adress */}
-
+;
 
       <div class="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 mb-[100px]">
 
@@ -46,32 +48,21 @@ export default function About() {
           <h2 className='text-center font-bold text-2xl mb-2 text-green-900'> Adress 1</h2>
           <h2 className='text-center font-semibold'> Duhok   </h2>
           <h2 className='text-center font-semibold  text-sm'>Domis next to Sultan sweets</h2>
-          <div className='w-[200px] h-[200px] bg-green-700 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'>  map here</div>
-
+          <div  className=' w-[200px] h-[200px] bg-green-700 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'>  map here</div>
         </div>   <div class="rounded border-gray-300 dark:border-gray-700  h-24">
-
           <h2 className='text-center font-bold text-2xl mb-2 text-green-900'> Adress 2</h2>
           <h2 className='text-center font-semibold'> Hawler   </h2>
           <h2 className='text-center font-semibold text-sm '>next to hawler citadel </h2>
           <div className='w-[200px] h-[200px] bg-green-700 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'> map here</div>
-
         </div>
         <div class="rounded border-gray-300 dark:border-gray-700  h-24">
-
           <h2 className='text-center font-bold text-2xl mb-2 text-green-900'> Adress 3</h2>
           <h2 className='text-center font-semibold'> Zakho   </h2>
           <h2 className='text-center font-semibold text-sm'>infront of pira delal</h2>
           <div className='w-[200px] h-[200px] bg-green-700 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold mb-8'> map here</div>
 
         </div>
-
-
-
-
       </div>
-
-
     </div>
-
   );
 }

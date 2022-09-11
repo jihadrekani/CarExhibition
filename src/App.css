@@ -25,3 +25,12 @@ background-size:cover  ;
 .filterform:hover{
   box-shadow: -1px -1px 5px 5px #4a489b; 
 }
+#map{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+

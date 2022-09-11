@@ -14,7 +14,7 @@ import Sports from './CategoriesPages/Sports'
 import NewDeals from './pages/NewDeals';
 import NewDealsDetails from './pages/NewDealsDetails';
 
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -31,7 +31,7 @@ function App() {
     if (username) {
       dispatch(login(username));
     }
-  }, []);
+  },[]);
 
   return (
     <div>
