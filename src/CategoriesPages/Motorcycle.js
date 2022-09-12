@@ -6,7 +6,7 @@ export default function Motorcycle() {
   const Cars  = [
     {id: 1,
     name:"chevrolet chevelle malibu",
-    image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+    image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
     miles_per_Gallon:18,
     cylinders:8,
     displacement:307,
@@ -18,7 +18,7 @@ export default function Motorcycle() {
 
     {id: 2,
       name:"buick skylark 320",
-      image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+      image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
       miles_per_Gallon:15,
       cylinders:8,
       displacement:350,
@@ -29,7 +29,7 @@ export default function Motorcycle() {
       origin:"Germany"},
     {id: 3,
       name:"plymouth satellite",
-      image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+      image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
       miles_per_Gallon:18,
       cylinders:8,
       displacement:318,
@@ -40,7 +40,7 @@ export default function Motorcycle() {
       origin:"Japan"},
       { id: 4,
         name:"amc rebel sst",
-        image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+        image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
         miles_per_Gallon:16,
         cylinders:8,
         displacement:304,
@@ -52,7 +52,7 @@ export default function Motorcycle() {
      },
      {  id: 5,
         name:"ford torino",
-        image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+        image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
         miles_per_Gallon:17,
         cylinders:8,
         displacement:302,
@@ -64,7 +64,7 @@ export default function Motorcycle() {
      },
      {  id: 6,
         name:"ford galaxie 500",
-        image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+        image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
         miles_per_Gallon:15,
         cylinders:8,
         displacement:429,
@@ -76,7 +76,7 @@ export default function Motorcycle() {
      },
      {  id: 7,
         name:"chevrolet impala",
-        image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+        image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
         miles_per_Gallon:14,
         cylinders:8,
         displacement:454,
@@ -88,7 +88,7 @@ export default function Motorcycle() {
      },
      {id: 8,
       name:"ford maverick",
-      image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+      image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
       miles_per_Gallon:21,
       cylinders:6,
       displacement:200,
@@ -100,7 +100,7 @@ export default function Motorcycle() {
    },
    {id:9,
     name:"datsun pl510",
-    image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+    image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
     miles_per_Gallon:27,
     cylinders:4,
     displacement:97,
@@ -112,7 +112,7 @@ export default function Motorcycle() {
  },
  {id:10,
   name:"volkswagen 1131 deluxe sedan",
-  image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+  image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
   miles_per_Gallon:26,
   cylinders:4,
   displacement:97,
@@ -124,7 +124,7 @@ export default function Motorcycle() {
 },
 { id:11,
   name:"peugeot 504",
-  image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+  image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
   miles_per_Gallon:25,
   cylinders:4,
   displacement:110,
@@ -136,7 +136,7 @@ export default function Motorcycle() {
 },
  {id: 12,
   name:"plymouth fury iii",
-  image:"https://th.bing.com/th/id/OIP.-AuKag8DkizU2utw-Rb3bQHaFj?pid=ImgDet&rs=1",
+  image:"https://wallup.net/wp-content/uploads/2019/09/1026824-sbk-2008-yamaha-r1.jpg",
   miles_per_Gallon:14,
   cylinders:8,
   displacement:440,
@@ -154,7 +154,7 @@ export default function Motorcycle() {
     <div className='container   mx-auto p-10 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4  gap-5 object-fill'>
       {Cars.map((user, index) => {
         return (
-          <div className='border-solid border-2 border-red-500' key={index}>
+          <div className='border-solid border-2 border-sky-800' key={index}>
             <img className='mb-1 hover:scale-110 transition duration-300 ease-in-out' src={user.image}/>
             <h2 className='ml-2 font-semibold'> {user.name}</h2>
             <p className='ml-2'> {user.year}</p>

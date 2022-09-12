@@ -154,7 +154,7 @@ export default function PrivateCar() {
     <div className='container   mx-auto p-10 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4  gap-5 object-fill'>
       {Cars.map((user, index) => {
         return (
-          <div className='border-solid border-2 border-slate-500' key={index}>
+          <div className='border-solid border-2 border-sky-800' key={index}>
             <img className='mb-1 hover:scale-110 transition duration-300 ease-in-out' src={user.image}/>
             <h2 className='ml-2 font-semibold'> {user.name}</h2>
             <p className='ml-2'> {user.year}</p>

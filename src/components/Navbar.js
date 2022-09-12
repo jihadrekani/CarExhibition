@@ -82,7 +82,7 @@ export default function Navbar() {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 {auth.isAuthenticated ? (
                   <>
-                    <p className="text-white mr-4 ">
+                    <p className="text-gray-400 mr-4 ">
                        {auth.username}
                     </p>
                     <Link
