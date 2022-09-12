@@ -155,7 +155,7 @@ export default function PrivateCar() {
       {Cars.map((user, index) => {
         return (
           <div className='border-solid border-2 border-slate-500' key={index}>
-            <img className='mb-1 ' src={user.image}/>
+            <img className='mb-1 hover:scale-110 transition duration-300 ease-in-out' src={user.image}/>
             <h2 className='ml-2 font-semibold'> {user.name}</h2>
             <p className='ml-2'> {user.year}</p>
             <p className='ml-2'> {user.origin}</p>
