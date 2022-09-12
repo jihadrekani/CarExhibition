@@ -1,5 +1,5 @@
 import Layout from '../layouts/MainLayout';
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function NewDeals() {
@@ -125,11 +125,11 @@ export default function NewDeals() {
       {Cars.map((user, index) => {
         return (
           <div className='border-solid border-2 border-slate-500' key={index}>
-            <img className='mb-1 ' src={user.image}/>
+            <img className='mb-1 ' alt='' src={user.image}/>
             <h2 className='ml-2 font-semibold'> {user.name}</h2>
             <p className='ml-2 text-red-600'> <del>{user.oldprice}</del> </p>
             <p className='ml-2 font-bold'> {user.newprice}</p>
-            <Link to='/NewDealsDetails' target={"blank"}  className='inline-block m-1 px-1.5 py-1.5 bg-gray-800 text-white font-medium text-[12px] leading-tight  rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out float-right'>More Details</Link>
+            <Link to='/NewDealsDetails' target={"blank"}  className='inline-block m-1 px-1.5 py-1.5 bg-sky-800 text-white font-medium text-[12px] leading-tight  rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out float-right'>More Details</Link>
 
             
           </div>

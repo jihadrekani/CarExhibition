@@ -1,55 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import ReactCarousel from './ReactCarousel';
-import { Carousel } from 'react-responsive-carousel';
-import FilterForm from './FilterForm';
-import NewArrivals from '../pages/NewArrivals';
-export default function HeroSection() {
+import React from 'react'
+import { Link } from 'react-router-dom'
+export default function NewArrivals() {
   return (
-    <div className="container  mx-auto grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2
-      mt-8 md:mt-10 ">
-      <div className="  mt-3 flex flex-col items-center justify-center">
-        {' '}
-        <h2 className="text-3xl  tracking-tight font-bold text-grey-600 sm:text-4xl md:text-4xl">
-          The city of <span className='text-red-600'>Cars</span>   <br />
-        </h2>
-
-        <img className='  animate-pulse mt-3  ' src="https://img.icons8.com/color/48/000000/fiat-500--v2.png" />
-        {/* <p className="text-2xl sm:text-xl md:text-xl sm:text-center md:text-center text-gray-500 mt-3">
-          We have all kinds of Cars. Enter the Category and find your dream Car.{' '}
-        </p> */}
-        
-        <FilterForm />
-      </div>
-      <div className=" ">
-        {/* <img
-          className="h-full w-auto object-cover rounded"
-          src="https://images.unsplash.com/photo-1614026480209-cd9934144671?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          alt="woman holding bags while shopping"
-        /> */}
-        <br />
-        <br />
-        <ReactCarousel />
-
-      </div>
-
-      {/* <!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
---> */}
-      {/* {<div className="  rounded">
+    <div className="  rounded">
         <div className=" max-w-2xl  mt-[65px] mb-[45px] mx-auto py-16 bg-grey hover:bg-gray-300 rounded border px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 className='mb-5 font-bold text-center text-2xl '>New arrivals</h2>
           <h2 className="sr-only">Products</h2>
@@ -87,51 +40,11 @@ export default function HeroSection() {
               <p className="mt-1 text-lg font-medium text-gray-900">$48500</p>
             </Link>
 
-            <Link to='NewArrivals' className='bg-sky-800 text-center text-white hover:bg-sky-600 lg:h-6 md:ml-auto  lg:my-auto sm:h-6 sm:w-[80px] sm:mx-auto sm:my-auto  rounded-full  ' >see all</Link>
+            <Link to='AllArrivals' className='bg-sky-800 text-center text-white hover:bg-sky-600 lg:h-6 md:ml-auto  lg:my-auto sm:h-6 sm:w-[80px] sm:mx-auto sm:my-auto  rounded-full  ' >see all</Link>
 
           </div>
         </div>
-      </div>} */}
+      </div>)}
 
-<NewArrivals />
-
-      {/* Our statistics */}
-      <section className="text-gray-600 body-font ">
-  <div className="container mt-[100px] px-5 py-24 mx-auto hover:bg-gray-300">
-        <h2 className='font-bold text-black text-2xl text-center md:mb-8 mb-10 mt-[-135px] md:mt-[-90px] sm:mt-[-90px]'>Our statistics</h2>
-    <div className="flex flex-wrap -m-4 text-center">
-      <div className="p-4 sm:w-1/4 w-1/2">
-        <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.3K</h2>
-        <p className="leading-relaxed">Cars</p>
-      </div>
-      <div className="p-4 sm:w-1/4 w-1/2">
-        <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">87</h2>
-        <p className="leading-relaxed">Cars type</p>
-      </div>
-      <div className="p-4 sm:w-1/4 w-1/2">
-        <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">239</h2>
-        <p className="leading-relaxed">Sales</p>
-      </div>
-      <div className="p-4 sm:w-1/4 w-1/2">
-        <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">856</h2>
-        <p className="leading-relaxed">Products</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-      {/* <div className="flex items-center justify-center  mb-[54px]">
-        <Link to="/Categories" className=" shadow-md hover:shadow-lg hover:bg-sky-600 bg-sky-800 text-white px-6 py-4 rounded-lg  text-xl font-semibold  sm:mb-4  ">
-          View Categories
-        </Link >
-
-        
-        
-       </div>  
-        */}
-    </div>
-  );
-}
+  
 

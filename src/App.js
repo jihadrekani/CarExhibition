@@ -13,6 +13,8 @@ import PrivateCar from './CategoriesPages/PrivateCar'
 import Sports from './CategoriesPages/Sports'
 import NewDeals from './pages/NewDeals';
 import NewDealsDetails from './pages/NewDealsDetails';
+import NewArrivals from './pages/NewArrivals'
+import AllArrivals from './pages/AllArrivals';
 
 // import Navbar from './components/Navbar';
 
@@ -52,6 +54,8 @@ function App() {
         <Route path="Sports" element={<Sports />} /> 
         <Route path="NewDeals" element={<NewDeals />} />
         <Route path="NewDealsDetails" element={<NewDealsDetails />} />
+        <Route path='NewArrivals' element={<NewArrivals />} />
+        <Route path='AllArrivals' element={<AllArrivals />} />
 
         
         

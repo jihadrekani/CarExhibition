@@ -5,7 +5,7 @@ export default function Buses() {
   const Cars = [
     {id: 1,
     name:"chevrolet chevelle malibu",
-    image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+    image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
     miles_per_Gallon:18,
     cylinders:8,
     displacement:307,
@@ -17,7 +17,7 @@ export default function Buses() {
 
     {id: 2,
       name:"buick skylark 320",
-      image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+      image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
       miles_per_Gallon:15,
       cylinders:8,
       displacement:350,
@@ -28,7 +28,7 @@ export default function Buses() {
       origin:"Germany"},
     {id: 3,
       name:"plymouth satellite",
-      image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+      image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
       miles_per_Gallon:18,
       cylinders:8,
       displacement:318,
@@ -39,7 +39,7 @@ export default function Buses() {
       origin:"Japan"},
       { id: 4,
         name:"amc rebel sst",
-        image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+        image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
         miles_per_Gallon:16,
         cylinders:8,
         displacement:304,
@@ -51,7 +51,7 @@ export default function Buses() {
      },
      {  id: 5,
         name:"ford torino",
-        image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+        image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
         miles_per_Gallon:17,
         cylinders:8,
         displacement:302,
@@ -63,7 +63,7 @@ export default function Buses() {
      },
      {  id: 6,
         name:"ford galaxie 500",
-        image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+        image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
         miles_per_Gallon:15,
         cylinders:8,
         displacement:429,
@@ -75,7 +75,7 @@ export default function Buses() {
      },
      {  id: 7,
         name:"chevrolet impala",
-        image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+        image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
         miles_per_Gallon:14,
         cylinders:8,
         displacement:454,
@@ -87,7 +87,7 @@ export default function Buses() {
      },
      {id: 8,
       name:"ford maverick",
-      image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+      image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
       miles_per_Gallon:21,
       cylinders:6,
       displacement:200,
@@ -99,7 +99,7 @@ export default function Buses() {
    },
    {id:9,
     name:"datsun pl510",
-    image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+    image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
     miles_per_Gallon:27,
     cylinders:4,
     displacement:97,
@@ -111,7 +111,7 @@ export default function Buses() {
  },
  {id:10,
   name:"volkswagen 1131 deluxe sedan",
-  image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+  image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
   miles_per_Gallon:26,
   cylinders:4,
   displacement:97,
@@ -123,7 +123,7 @@ export default function Buses() {
 },
 { id:11,
   name:"peugeot 504",
-  image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+  image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
   miles_per_Gallon:25,
   cylinders:4,
   displacement:110,
@@ -135,7 +135,7 @@ export default function Buses() {
 },
  {id: 12,
   name:"plymouth fury iii",
-  image:"https://th.bing.com/th/id/R.5874b6198ed3cc2eb94b0ed67dabb558?rik=qro3QCrIju1BoA&pid=ImgRaw&r=0",
+  image:"https://i.pinimg.com/736x/fa/12/56/fa12565b589d65ffeeb95c6f408ea2bc--toyota-hiace-philippines.jpg",
   miles_per_Gallon:14,
   cylinders:8,
   displacement:440,
@@ -158,7 +158,7 @@ export default function Buses() {
             <h2 className='ml-2 font-semibold'> {user.name}</h2>
             <p className='ml-2'> {user.year}</p>
             <p className='ml-2'> {user.origin}</p>
-            <Link to='/product' target={"blank"}  className='inline-block m-1 px-1.5 py-1.5 bg-gray-800 text-white font-medium text-[12px] leading-tight  rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out float-right'>More Details</Link>
+            <Link to='/product' target={"blank"}  className='inline-block m-1 px-1.5 py-1.5 bg-sky-800 text-white font-medium text-[12px] leading-tight  rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out float-right'>More Details</Link>
 
             
           </div>
