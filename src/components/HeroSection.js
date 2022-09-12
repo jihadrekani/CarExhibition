@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import ReactCarousel from './ReactCarousel';
-import { Carousel } from 'react-responsive-carousel';
 import FilterForm from './FilterForm';
 import NewArrivals from '../pages/NewArrivals';
 export default function HeroSection() {
@@ -14,7 +12,7 @@ export default function HeroSection() {
           The city of <span className='text-red-600'>Cars</span>   <br />
         </h2>
 
-        <img className='  animate-pulse mt-3  ' src="https://img.icons8.com/color/48/000000/fiat-500--v2.png" />
+        <img className='  animate-pulse mt-3  ' alt='' src="https://img.icons8.com/color/48/000000/fiat-500--v2.png" />
         {/* <p className="text-2xl sm:text-xl md:text-xl sm:text-center md:text-center text-gray-500 mt-3">
           We have all kinds of Cars. Enter the Category and find your dream Car.{' '}
         </p> */}

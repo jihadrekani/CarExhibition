@@ -2,32 +2,69 @@
 
 This is a website for showing and saling Cars.
 
-## Features
-
-- Authentication
-- State Management with RTK
-- Local Storage - yet
-- Shopping Cart => yet
-- Search and Filtering 
 
 ## hardcoding as an API.
 
 
-## Pages
-* worked on :
-- Home 
-- Categories
-- Login
-- Product
-- PrivateCar
-- Taxis
-- Buses
-- Motorcycle
-- Clasic Car
-- Sports Car
+## Using  
+- Html
+- Css
+- JavaScript
+- tailwindcss
+- react
 
-* doesnt worked on yet :
+
+## Features
+
+- Authentication
+- Local Storage - yet
+- Search and Filtering 
+
+
+
+## Components
+- AddPrudocts
+- FilterForm
+- Footer
+- HeroSection
+- LoadingSpinner
+- MultiSlider
+- Navbar
+- ReactCarousel
+
+## Pages
 - About
-- Register
-- Products
-- Cart
+- AllArrivals
+- Categories
+- Home 
+- Login
+- NewArrivals
+- NewDeals
+- NewDealsDetails
+- Product
+
+## CategoriesPages
+- Buses
+- Clasic
+- Motorcycle
+- PrivateCar
+- Sports
+- Taxis
+
+
+## Libraries and framework
+- reduxjs/toolkit
+- heroicons/react
+- axios
+- react
+- react-multi-carousel
+- react-responsive-carousel
+- react-router-dom
+- react-scripts
+- react-share
+- 
+- 
+- 
+- 
+- 
+

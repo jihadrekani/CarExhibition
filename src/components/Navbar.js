@@ -1,8 +1,8 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { useState, Fragment, useEffect } from 'react';
 
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
+import { Disclosure } from '@headlessui/react';
+import {  MenuIcon, XIcon } from '@heroicons/react/outline';
 import { useLocation, NavLink, Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { logout } from '../app/slices/authSlice';

@@ -21,8 +21,6 @@ import AllArrivals from './pages/AllArrivals';
 import Home from './pages/Home';
 import About from './pages/About';
 import Login from './pages/Login';
-import Register from './pages/Register';
-import Products from './pages/Products';
 import Product from './pages/Product';
 import Categories from './pages/Categories';
 function App() {
@@ -42,8 +40,6 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path='addproduct' element={<AddProduct />} />
         <Route path="login" element={<Login />} />
-        <Route path="register" element={<Register />} />
-        <Route path="products" element={<Products />} />
         <Route path="Categories" element={<Categories />} />
         <Route path="product" element={<Product />} />
         <Route path="MotorCycle" element={<MotorCycle />} />
