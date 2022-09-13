@@ -44,9 +44,9 @@ const callouts = [
     imageSrc: 'https://visor.ph/wp-content/uploads/2018/10/toyota-hiace-commuter-main1.jpg',
     href: '/Buses',
   }, {
-    type: 'classic',
+    type: 'Classic Cars',
     imageSrc: 'https://www.focus2move.com/wp-content/uploads/2020/08/Morgan-Plus_Four-2021-1024-01.jpg',
-    href: '/classic',
+    href: '/ClassicCars',
   },
 ]
 

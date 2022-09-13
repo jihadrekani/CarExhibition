@@ -8,7 +8,7 @@ import AddProduct from './components/Addproducts';
 import MotorCycle from './CategoriesPages/Motorcycle';
 import Taxis from './CategoriesPages/Taxis';
 import Buses from './CategoriesPages/Buses'
-import Classic from './CategoriesPages/Classic'
+import ClassicCars from './CategoriesPages/ClassicCars'
 import PrivateCar from './CategoriesPages/PrivateCar'
 import Sports from './CategoriesPages/Sports'
 import NewDeals from './pages/NewDeals';
@@ -45,7 +45,7 @@ function App() {
         <Route path="MotorCycle" element={<MotorCycle />} />
         <Route path="Taxis" element={<Taxis />} />  
         <Route path="Buses" element={<Buses />} /> 
-        <Route path="Classic" element={<Classic />} /> 
+        <Route path="ClassicCars" element={<ClassicCars />} /> 
         <Route path="PrivateCar" element={<PrivateCar />} /> 
         <Route path="Sports" element={<Sports />} /> 
         <Route path="NewDeals" element={<NewDeals />} />

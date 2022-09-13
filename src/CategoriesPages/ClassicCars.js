@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import Layout from '../layouts/MainLayout';
 import React, { useState } from 'react';
-export default function Classic() {
+export default function ClassicCars() {
   const Cars = [
     {id: 1,
     name:"chevrolet chevelle malibu",
