@@ -10,7 +10,7 @@ export default function NewArrivals() {
           <div className=" grid  grid-cols-2 gap-y-10 sm:grid-cols-4  gap-x-6 lg:grid-cols-4 xl:grid-cols-4 xxl:grid-cols-4 xl:gap-x-8">
             <Link to="/mustang2023" className="group">
               <div className="border-solid border-2 border-black  w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                <img className='' src="https://4.bp.blogspot.com/-9YAwaU1zdt0/Uq_AhyNljwI/AAAAAAAAFYY/osCZRa2SqgE/s640/cars+2014+4.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."  class="w-full h-full object-center object-cover group-hover:opacity-75" />
+                <img  className="w-full h-full object-center object-cover group-hover:opacity-75" src="https://4.bp.blogspot.com/-9YAwaU1zdt0/Uq_AhyNljwI/AAAAAAAAFYY/osCZRa2SqgE/s640/cars+2014+4.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."  />
               </div>
               <h3 className="mt-4 text-sm text-gray-700">mustang 2023</h3>
               <p className="mt-1 text-lg font-medium text-gray-900">$48500</p>

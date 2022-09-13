@@ -27,3 +27,7 @@ background-size:cover  ;
 }
 
 
+.map-container {
+  height: 750px;
+  width: 750px;
+}
