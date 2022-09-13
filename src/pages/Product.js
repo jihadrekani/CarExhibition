@@ -77,9 +77,9 @@ export default function Product() {
 
         <div className='text-2xl font-bold   mt-4'>Range Rover Sport svr 2022 <span className='ml-[270px] text-red-500'>115,500$</span></div>
         <div className='flex  mt-6 '>
-          <span className='text-red-500 '><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+          <span className='text-red-500 '><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
           </svg>
           </span>
           <span className='text-xl'> Duhok</span>
@@ -98,15 +98,15 @@ export default function Product() {
         {/* extra informations */}
 
 
-        <div class="flex justify-center mt-11 ">
-          <ul class="bg-gray-200 rounded-lg  w-96 text-gray-900">
-            <li class="px-6 py-2 border-b border-gray-300 w-full rounded-t-lg"> Color<span className='ml-[200px]'>white</span></li>
-            <li class="px-6 py-2 border-b border-gray-300 w-full"> Year<span className='ml-[207px]'>2022</span></li>
-            <li class="px-6 py-2 border-b border-gray-300 w-full">Kilometers<span className='ml-[165px]'>2,159</span></li>
+        <div className="flex justify-center mt-11 ">
+          <ul className="bg-gray-200 rounded-lg  w-96 text-gray-900">
+            <li className="px-6 py-2 border-b border-gray-300 w-full rounded-t-lg"> Color<span className='ml-[200px]'>white</span></li>
+            <li className="px-6 py-2 border-b border-gray-300 w-full"> Year<span className='ml-[207px]'>2022</span></li>
+            <li className="px-6 py-2 border-b border-gray-300 w-full">Kilometers<span className='ml-[165px]'>2,159</span></li>
           </ul>
         </div>
 
-        <div class="container mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  place-items-center pt-6 gap-2">
+        <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  place-items-center pt-6 gap-2">
           
           <div className=''>
 
