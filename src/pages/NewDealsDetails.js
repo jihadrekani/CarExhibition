@@ -1,8 +1,7 @@
-
+import { Link } from 'react-router-dom';
 import Layout from '../layouts/MainLayout';
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
-
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -25,6 +24,11 @@ import {
 export default function NewDealsDetails() {
   return (
     <Layout>
+
+ 
+            
+        
+
 
  <div className='max-w-full h-auto w-[700px] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1   xl:grid-cols-1 h-screen place-items-center container mx-auto mt-12 ml-auto '>
     <Carousel  infiniteLoop={true} autoPlay={true} interval={2500} showThumbs={false} showIndicators={false} showStatus={false}>
@@ -87,9 +91,9 @@ export default function NewDealsDetails() {
 
 <div className='text-2xl font-bold   mt-4'>Range Rover Sport svr 2022 <span className='ml-[270px] text-red-500'>115,500$</span></div>
 <div className='flex  mt-6 '> 
-  <span className='text-red-500 '><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+  <span className='text-red-500 '><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
 </svg>
 </span>
   <span className='text-xl'> Duhok</span>
@@ -108,11 +112,11 @@ export default function NewDealsDetails() {
 {/* extra informations */}
 
 
-<div class="container mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  place-items-center pt-6 gap-2">
-                    <div class="rounded text- pl-2 pr-1  "> Color:<span className='ml-[200px]'>white</span>  </div>
-                    <div class="rounded text- pl-2 pr-1  ">Year:<span className='ml-[207px]'>2022</span></div>
-                    <div class="rounded text- pl-2 pr-1 ">Kilometers:<span className='ml-[165px]'>2,159</span></div>
-                    <div class="rounded text- pl-2 pr-1 ">Year:<span className='ml-[208px]'>2022</span></div>
+<div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1  place-items-center pt-6 gap-2">
+                    <div className="rounded text- pl-2 pr-1  "> Color:<span className='ml-[200px]'>white</span>  </div>
+                    <div className="rounded text- pl-2 pr-1  ">Year:<span className='ml-[207px]'>2022</span></div>
+                    <div className="rounded text- pl-2 pr-1 ">Kilometers:<span className='ml-[165px]'>2,159</span></div>
+                    <div className="rounded text- pl-2 pr-1 ">Year:<span className='ml-[208px]'>2022</span></div>
 
 <div className='mt-7'>
 
