@@ -27,9 +27,9 @@ export default function Login() {
   }
 
   return (
-    <div className="bg-indigo-600 min-h-screen p-10 flex items-center justify-center">
-      <div className="container mx-auto flex items-center justify-center">
-        <div className="bg-white p-10 rounded-lg shadow-xl w-96">
+    <div className=" bg-sky-800 min-h-screen p-10 flex items-center justify-center">
+      <div className="container  mx-auto flex items-center justify-center">
+        <div className="login bg-white p-10 rounded-lg shadow-xl w-96">
           <form className="grid grid-cols-1" onSubmit={submitHandler}>
             <h2 className="text-center mb-5 text-2xl font-bold">Login Page</h2>
 
@@ -54,15 +54,15 @@ export default function Login() {
 
             <button
               type="submit"
-              className="bg-indigo-600 p-1 rounded-full text-white px-4 hover:bg-indigo-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className=" bg-sky-800 p-1 rounded-full text-white px-4 hover:bg-sky-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
             >
               Login
             </button>
 
             <div className="mt-5 text-sm text-gray-500">
-              <button className=" mt-1 underline">Forgot password?</button>{' '}
+              <button className=" mt-1 underline hover:text-gray-400">Forgot password?</button>{' '}
               <br />
-              <button className=" mt-1 underline">
+              <button className=" mt-1 underline hover:text-gray-400">
                 Don't have account? Register.
               </button>
             </div>
