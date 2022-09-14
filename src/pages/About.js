@@ -1,16 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Layout from '../layouts/MainLayout';
+
 // import LeafletMap from '../components/LeafletMap';
 
 export default function About() {
   
   return (
-    <div className='mt-5'>
-      <Link to='/' className='bg-green-700 hover:bg-green-600  rounded-xl p-1 ml-3 text-white w-[100px] flex ' href='/' ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mr-3 ml-1 w-6 h-6">
+    <Layout>
+      {/* <Link to='/' className='bg-green-700 hover:bg-green-600  rounded-xl p-1 ml-3 text-white w-[100px] flex ' href='/' ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mr-3 ml-1 w-6 h-6">
         <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
       </svg>
-        Home</Link>
-      <section className="relative pt-32 pb-28 bg-green-700 overflow-hidden mt-6">
+        Home</Link> */}
+      <section className="relative pt-32 pb-28 bg-sky-800 overflow-hidden  ">
         <img className="absolute top-0 left-0" src="gradia-assets/elements/contact/radial3.svg" alt="" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="flex flex-wrap -m-6">
@@ -40,30 +42,31 @@ export default function About() {
       {/* adress */}
 ;
 
-      <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 mb-[100px]">
+      <div className="container  mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 mb-[300px]">
 
         <div className="rounded border-gray-300 dark:border-gray-700  h-24">
 
-          <h2 className='text-center font-bold text-2xl mb-2 text-green-900'> Adress 1</h2>
+          <h2 className='text-center font-bold text-2xl mb-2 text-sky-800'> Adress 1</h2>
           <h2 className='text-center font-semibold'> Duhok   </h2>
           <h2 className='text-center font-semibold  text-sm'>Domis next to Sultan sweets</h2>
-          <div  className=' w-[200px] h-[200px] bg-green-700 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'>  map here</div>
+          <div  className=' w-[200px] h-[200px] bg-sky-800 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'>  map here</div>
         </div>   <div className="rounded border-gray-300 dark:border-gray-700  h-24">
-          <h2 className='text-center font-bold text-2xl mb-2 text-green-900'> Adress 2</h2>
+          <h2 className='text-center font-bold text-2xl mb-2 text-sky-800'> Adress 2</h2>
           <h2 className='text-center font-semibold'> Hawler   </h2>
           <h2 className='text-center font-semibold text-sm '>next to hawler citadel </h2>
-          <div className='w-[200px] h-[200px] bg-green-700 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'> map here</div>
+          <div className='w-[200px] h-[200px] bg-sky-800 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'> map here</div>
         </div>
         <div className="rounded border-gray-300 dark:border-gray-700  h-24">
-          <h2 className='text-center font-bold text-2xl mb-2 text-green-900'> Adress 3</h2>
+          <h2 className='text-center font-bold text-2xl mb-2 text-sky-800'> Adress 3</h2>
           <h2 className='text-center font-semibold'> Zakho   </h2>
           <h2 className='text-center font-semibold text-sm'>infront of pira delal</h2>
-          <div className='w-[200px] h-[200px] bg-green-700 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold mb-8'>   map here</div>
+          <div className='w-[200px] h-[200px] bg-sky-800 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold '>   map here</div>
 
         </div>
       </div>
 {/* <LeafletMap /> */}
 
-    </div>
+    
+    </Layout>
   );
 } 

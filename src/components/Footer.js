@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       
-<footer className="p-4 mt-6 bg-sky-800 text-gray-200 sm:p-6 dark:bg-gray-900">
+<footer className="p-4 mt-6 bg-sky-800  text-gray-200 sm:p-6 dark:bg-gray-900">
     <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0 ">
             <a href="" className="flex items-center">

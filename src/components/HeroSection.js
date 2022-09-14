@@ -17,7 +17,6 @@ export default function HeroSection() {
           We have all kinds of Cars. Enter the Category and find your dream Car.{' '}
         </p> */}
         
-        <FilterForm />
       </div>
       <div className=" ">
         {/* <img
@@ -29,7 +28,9 @@ export default function HeroSection() {
         <br />
         <ReactCarousel />
 
+
       </div>
+        <FilterForm />
 
       {/* <!--
   This example requires Tailwind CSS v2.0+ 
@@ -91,7 +92,6 @@ export default function HeroSection() {
         </div>
       </div>} */}
 
-<NewArrivals />
 
       {/* Our statistics */}
       <section className="text-gray-600 body-font ">
@@ -115,6 +115,7 @@ export default function HeroSection() {
         <p className="leading-relaxed">Products</p>
       </div>
     </div>
+<NewArrivals />
   </div>
 </section>
 
