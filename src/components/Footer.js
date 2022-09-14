@@ -7,10 +7,10 @@ export default function Footer() {
 <footer className="p-4 mt-6 bg-black  text-gray-200 sm:p-6 dark:bg-gray-900">
     <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0 ">
-            <a href="" className="flex items-center">
+            <p  className="flex items-center">
                 <img src="https://w7.pngwing.com/pngs/613/636/png-transparent-computer-icons-user-profile-male-avatar-avatar-heroes-logo-black-thumbnail.png" className="mr-3 rounded h-8" alt="FlowBite Logo"/>
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Jihad</span>
-            </a>
+            </p>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
