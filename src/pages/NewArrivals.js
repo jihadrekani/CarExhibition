@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 export default function NewArrivals() {
   return (
-    <div className="  rounded  ">
-        <div className="   max-w-2xl  mt-[180px] mb-[45px] mx-auto py-16 bg-grey hover:bg-gray-300 rounded border px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div className="  rounded   ">
+        <div className=" grid  xl:grid-cols-1 hover:bg-gray-300  max-w-2xl  mt-[70px] mb-[40px] mx-auto py-16 rounded border px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 className='mb-5 font-bold text-center text-2xl '>New arrivals</h2>
           <h2 className="sr-only">Products</h2>
 
-          <div className=" grid container mx-auto   grid-cols-2 gap-y-10 sm:grid-cols-4  gap-x-6 lg:grid-cols-12 xl:grid-cols-4 xxl:grid-cols-4 xl:gap-x-8">
+          <div className=" grid container mx-auto    grid-cols-2 gap-y-10 sm:grid-cols-4  gap-x-6 lg:grid-cols-12 xl:grid-cols-4 xxl:grid-cols-4 xl:gap-x-8">
             <Link to="/mustang2023" className="group">
               <div className="border-solid border-2 border-black  w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                 <img  className="w-full h-full object-center object-cover group-hover:opacity-75" src="https://4.bp.blogspot.com/-9YAwaU1zdt0/Uq_AhyNljwI/AAAAAAAAFYY/osCZRa2SqgE/s640/cars+2014+4.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."  />
@@ -44,7 +44,8 @@ export default function NewArrivals() {
 
           </div>
         </div>
-      </div>)}
+      </div>
+      )}
 
   
 

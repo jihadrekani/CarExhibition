@@ -94,9 +94,9 @@ export default function HeroSection() {
 
 
       {/* Our statistics */}
-      <section className="text-gray-600 body-font ">
-  <div className="container mt-[100px] px-5 py-24 mx-auto hover:bg-gray-300">
-        <h2 className='font-bold text-black text-2xl text-center md:mb-8 mb-10 mt-[-135px] md:mt-[-90px] sm:mt-[-90px]'>Our statistics</h2>
+      <section className="  text-gray-600 body-font ">
+  <div className="container  mt-[100px] px-5 py-24 mx-auto hover:bg-gray-300 ">
+        <h2 className='mx-auto font-bold text-black text-2xl text-center md:mb-8 mb-10 mt-[-135px] md:mt-[-90px] sm:mt-[-90px]'>Our statistics</h2>
     <div className="flex flex-wrap -m-4 text-center">
       <div className="p-4 sm:w-1/4 w-1/2">
         <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.3K</h2>
@@ -115,8 +115,8 @@ export default function HeroSection() {
         <p className="leading-relaxed">Products</p>
       </div>
     </div>
-<NewArrivals />
   </div>
+<NewArrivals />
 </section>
 
 
@@ -129,8 +129,13 @@ export default function HeroSection() {
         
         
        </div>  
-        */}
+  */}
+  
+
+  
+
     </div>
+    
   );
 }
 

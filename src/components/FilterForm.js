@@ -5,7 +5,7 @@ export default function FilterForm() {
     <div>
 
 <form className='container  filterform bg-zinc-900 rounded lg:mt-6 xl:mb-[45px] w-[500px] mx-auto  pb-6 mt-[17px] mb-12 grid  place-items-center   '>
-<div className='    w-[320px] h-[260px]   text-center   '>
+<div className='    w-[320px] h-[260px]  text-center  '>
   <h2 className='text-lg  text-white text-center font-sans bg-sky-700 rounded-xl mt-2  '>Search our extensive range of quality cars with prices to suit all budgets</h2>
 <select className='rounded w-[250px]  hover:bg-sky-600 mt-2 mb-3 bg-sky-700 text-white border-solid border border-sky-600' id="Any type">
   <option value="Any make" defaultValue="selected">Any make</option>
