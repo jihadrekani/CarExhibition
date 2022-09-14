@@ -4,7 +4,7 @@ export default function NewArrivals() {
   return (
     <div className="  rounded   ">
         <div className=" grid  xl:grid-cols-1 hover:bg-gray-300  max-w-2xl  mt-[70px] mb-[40px] mx-auto py-16 rounded border px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
-          <h2 className='mb-5 font-bold text-center text-2xl '>New arrivals</h2>
+          <h2 className='mb-5 font-bold text-black text-center text-2xl '>New arrivals</h2>
           <h2 className="sr-only">Products</h2>
 
           <div className=" grid container mx-auto    grid-cols-2 gap-y-10 sm:grid-cols-4  gap-x-6 lg:grid-cols-12 xl:grid-cols-4 xxl:grid-cols-4 xl:gap-x-8">

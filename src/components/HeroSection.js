@@ -4,15 +4,16 @@ import FilterForm from './FilterForm';
 import NewArrivals from '../pages/NewArrivals';
 export default function HeroSection() {
   return (
+    <div>
     <div className="container  mx-auto grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2
       mt-8 md:mt-10 ">
       <div className="  mt-3 flex flex-col items-center justify-center">
         {' '}
-        <h2 className="text-3xl  tracking-tight font-bold text-grey-600 sm:text-4xl md:text-4xl">
+        <h2 className="text-3xl  tracking-tight font-bold text-grey-600 sm:text-5xl md:text-5xl  lg:text-5xl  xl:text-6xl lg:mt-[120px]">
           The city of <span className='text-red-600'>Cars</span>   <br />
         </h2>
 
-        <img className='  animate-pulse mt-3  ' alt='' src="https://img.icons8.com/color/48/000000/fiat-500--v2.png" />
+        <img className='  animate-pulse mt-3  h-[65px] w-[65px]' alt='' src="https://img.icons8.com/color/48/000000/fiat-500--v2.png" />
         {/* <p className="text-2xl sm:text-xl md:text-xl sm:text-center md:text-center text-gray-500 mt-3">
           We have all kinds of Cars. Enter the Category and find your dream Car.{' '}
         </p> */}
@@ -116,7 +117,6 @@ export default function HeroSection() {
       </div>
     </div>
   </div>
-<NewArrivals />
 </section>
 
 
@@ -135,7 +135,11 @@ export default function HeroSection() {
   
 
     </div>
-    
+  <NewArrivals />
+
+
+
+ </div>   
   );
 }
 

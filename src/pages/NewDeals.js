@@ -121,7 +121,7 @@ export default function NewDeals() {
   return (
     <Layout>
       <h1 className=' flex  justify-center mt-7  text-4xl font-semibold text-[#1f2937] font-serif'>New Deals </h1>
-    <div className='container  mx-auto p-10 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4  gap-5 object-fill'>
+    <div className='container max-w-4xl   mx-auto p-10 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4  gap-5 object-fill'>
     
     
       {Cars.map((user, id) => {
