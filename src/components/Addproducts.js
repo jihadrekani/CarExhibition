@@ -1,3 +1,5 @@
+
+import Layout from '../layouts/MainLayout';
 import React from'react'
 const AddProduct=()=>{
 const[name,setName]=React.useState('');
@@ -8,6 +10,7 @@ const addProduct=()=>{
     console.log(name,price,category,company);}
 
     return(
+      <Layout>
       <div className='bg-sky-800 flex flex-col items-center justify-center h-screen'>
           <h2>this page will update with backend</h2>
             
@@ -32,7 +35,7 @@ const addProduct=()=>{
 
    </div>
    
-
+   </Layout>
    
     )};
    

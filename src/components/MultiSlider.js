@@ -35,7 +35,7 @@ export default function MultiSlider() {
 
   <div><Link to="/NewDeals">
         <img className=' w-auto h-[275px] mx-2 ' alt='item' src="https://th.bing.com/th/id/R.f16e9720a426e3e84cb2dc36a9b89239?rik=yvF%2b0T89baiLtQ&pid=ImgRaw&r=0" />
-   <h2 className='text-center'>Range Rover Evoque  <del className='ml-2 mr-2 text-red-800'> 42,650$</del> <b>41,999$ </b>  </h2>
+   <h2 className='text-center'>Range Rover Evoque  <del className='ml-2 mr-2 text-red-800'> 42,650$</del> <b>41,999$</b>  </h2>
    </Link>
     </div>
     <div><Link to="/NewDeals">
