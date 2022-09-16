@@ -31,10 +31,10 @@ export default function MultiSlider() {
   <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
 </svg> </h2>
 
-<Carousel className='container mx-auto object-fill flex w-screen'  responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000}>
+<Carousel className='container mx-auto object-fill flex w-screen '  responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000}>
 
   <div><Link to="/NewDeals">
-        <img className=' w-auto h-[275px] mx-2 ' alt='item' src="https://th.bing.com/th/id/R.f16e9720a426e3e84cb2dc36a9b89239?rik=yvF%2b0T89baiLtQ&pid=ImgRaw&r=0" />
+        <img className=' w-auto h-[275px] mx-2  ' alt='item' src="https://th.bing.com/th/id/R.f16e9720a426e3e84cb2dc36a9b89239?rik=yvF%2b0T89baiLtQ&pid=ImgRaw&r=0" />
    <h2 className='text-center'>Range Rover Evoque  <del className='ml-2 mr-2 text-red-800'> 42,650$</del> <b>41,999$</b>  </h2>
    </Link>
     </div>

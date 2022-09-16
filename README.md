@@ -64,9 +64,5 @@ This is a website for showing and saling Cars.
 - react-router-dom
 - react-scripts
 - react-share
-- 
-- 
-- 
-- 
-- 
+
 
