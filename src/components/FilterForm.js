@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function FilterForm() {
   return (
-    <div>
+    <div className=' flex'>
 
-<form className='container  filterform  rounded lg:mt-6 xl:mb-[45px] w-[500px] mx-auto  pb-6 mt-[17px] mb-12 grid  place-items-center   '>
+<form className='container  filterform  rounded lg:mt-6 xl:mb-[45px]  w-[500px] mx-auto  pb-6 mt-[17px] md:mt-[55px] mb-12 grid  place-items-center   '>
 <div className='    w-[320px] h-[260px]  text-center  '>
   <h2 className='text-lg  text-white text-center font-sans border border-solid  rounded-xl mt-6  '>Search our extensive range of quality cars with prices to suit all budgets</h2>
-<select className='rounded w-[250px]  hover:bg-sky-700 mt-4 mb-2 bg-sky-800 text-white border-solid border border-sky-600' id="filterform">
+<select className='rounded w-[250px]  hover:bg-sky-700 mt-6 mb-3 bg-sky-800 text-white border-solid border border-sky-600' id="filterform">
   <option value="Any make" defaultValue="selected">Any make</option>
   <option value="Audi">Audi</option>
   <option value="BMW">BMW</option>
@@ -31,7 +31,7 @@ export default function FilterForm() {
 </select>
 
 <br/>
-<select className='w-[250px] rounded mb-2 bg-sky-800  hover:bg-sky-700 text-white border-solid border border-sky-600' id="price">
+<select className='w-[250px] rounded mb-3 bg-sky-800  hover:bg-sky-700 text-white border-solid border border-sky-600' id="price">
 <option value="price min" defaultValue="selected">price (min)</option>
   <option value="10,000$">from 10,000$</option>
   <option value="20,000$" >from 20,000$</option>
@@ -55,7 +55,7 @@ export default function FilterForm() {
   <option value="200,000$" >from 200,000$</option>
 </select>
 
-<select className='w-[250px] mb-2 rounded bg-sky-800 text-white border-solid border border-sky-600  hover:bg-sky-700' id="price">
+<select className='w-[250px] mb-3  rounded bg-sky-800 text-white border-solid border border-sky-600  hover:bg-sky-700' id="price">
 <option value="price max" defaultValue="selected">price (max)</option>
   <option value="10,000$">from 10,000$</option>
   <option value="20,000$" >from 20,000$</option>
@@ -79,7 +79,7 @@ export default function FilterForm() {
   <option value="200,000$" >from 200,000$</option>
 </select>
 </div>
-<button className='w-[100px] rounded bg-sky-800 text-white mb-[110px] hover:bg-sky-700 border-solid border border-sky-600'>Search</button>
+<button className='w-[100px] rounded bg-sky-800 text-white mb-[10px] xl:mb-[110px] xl:-mt-[30px] hover:bg-sky-700 border-solid border border-sky-600'>Search</button>
 </form>
 
     </div>
