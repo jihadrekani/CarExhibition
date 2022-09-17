@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <div>
     <div className="container  mx-auto grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2
-      mt-8 md:mt-10 ">
+        ">
       <div className="  mt-3 flex flex-col items-center justify-center">
         {' '}
         <h2 className="text-3xl  tracking-tight font-bold text-grey-600 sm:text-5xl md:text-5xl  lg:text-5xl  xl:text-6xl lg:mt-[120px]">

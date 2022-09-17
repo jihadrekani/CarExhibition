@@ -126,8 +126,8 @@ export default function NewDeals() {
     
       {Cars.map((user, id) => {
         return (
-          <div className='border-solid border-2 border-slate-500' key={id}>
-            <img className='mb-1 ' alt='' src={user.image}/>
+          <div className='border-solid border-2 border-slate-500 ' key={id}>
+            <img className='mb-1  ' alt='' src={user.image}/>
             <h2 className='ml-2 font-semibold'> {user.name}</h2>
             <p className='ml-2 text-red-600'> <del>{user.oldprice}</del> </p>
             <p className='ml-2 font-bold'> {user.newprice}</p>
