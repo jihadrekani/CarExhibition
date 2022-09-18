@@ -5,7 +5,7 @@ import Layout from '../layouts/MainLayout';
 export default function AllArrivals() {
   return (
     <Layout>
-    <div className='container place-items-center mx-auto  grid xl:grid-cols-5 xl:gap-x-4 xl:gap-y-8  mt-12 mb-12 lg:gap-x-3 lg:gap-y-8 lg:grid-cols-4 md:gap-x-2 md:gap-y-6 md:grid-cols-3 sm:gap-x-2 sm:gap-y-4 sm:grid-cols-2'>
+    <div className='container place-items-center mx-auto gap-x-4 gap-y-4 grid xl:grid-cols-5 xl:gap-x-4 xl:gap-y-8  mt-12 mb-12 lg:gap-x-3 lg:gap-y-8 lg:grid-cols-4 md:gap-x-2 md:gap-y-6 md:grid-cols-3 sm:gap-x-2 sm:gap-y-4 sm:grid-cols-2 '>
 <Link to="ArrivalsDetails-1">
 <div className="w-full max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
     <img className=" max-w-xs hover:scale-110 transition duration-300 ease-in-out object-cover w-full h-56" src="https://www.autoguide.com/blog/wp-content/gallery/2018-geneva-motor-show-mansory/Mansory-Cars-2018-Geneva-Motor-Show-11.jpg" alt="avatar"/>
