@@ -58,9 +58,9 @@ export default function Navbar() {
                     alt="Jihad Cars"
                   />  */}
                   <Link to='/'>
-                  <h2 className='text-white ml-2 font-bold text-xl '>Duhok Cars</h2></Link>
+                  <h2 className='text-white ml-2 font-bold text-xl '>JR Cars</h2></Link>
                 </div>
-                <div className="hidden sm:block sm:ml-6 ">
+                <div className="hidden sm:block sm:ml-2 ">
                   <div className="flex space-x-4 ">
                     {navigation.map((item, index) => (
                       <NavLink
