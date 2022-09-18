@@ -96,7 +96,7 @@ export default function HeroSection() {
 
       {/* Our statistics */}
       <section className="  text-gray-600 body-font mt-[30px] ">
-  <div className="container  mt-[60px] sm:-mb-[50px] lg:mt-[110px] px-5 py-24 mx-auto hover:bg-gray-300 ">
+  <div className="container  mt-[110px] mb-[5px] sm:mb-[40px] sm:mt-[80px] md:mt-[110px] md:mb-[95px] lg:mt-[170px] px-5 lg:py-15 mx-auto hover:bg-gray-300 ">
         <h2 className='mx-auto font-bold text-black text-2xl text-center md:mb-8 mb-10 mt-[-135px] md:mt-[-90px] sm:mt-[-90px]'>Our statistics</h2>
     <div className="flex flex-wrap -m-4 text-center">
       <div className="p-4 sm:w-1/4 w-1/2">
