@@ -45,25 +45,25 @@ export default function About() {
 
       {/* adress */}
 
-      <div className="container  mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 mb-[300px]">
+      <div className="container place-items-center mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pt-6 gap-8 pb-6">
 
-        <div className="rounded border-gray-300 dark:border-gray-700  h-24">
+        <div className="rounded border-gray-300 dark:border-gray-700  px-4  h-24">
 
-          <h2 className='text-center font-bold text-2xl mb-2 text-sky-800'> Adress 1</h2>
+          <h2 className='text-center font-bold text-2xl mb-2 text-sky-800 '> Adress 1</h2>
           <h2 className='text-center font-semibold'> Duhok   </h2>
           <h2 className='text-center font-semibold  text-sm'>Domis next to Sultan sweets</h2>
-          <div  className=' w-[200px] h-[200px] bg-sky-800 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'>  map here</div>
-        </div>   <div className="rounded border-gray-300 dark:border-gray-700  h-24">
+          {/* <div  className=' w-[200px] h-[200px] bg-sky-800 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'>  map here</div> */}
+        </div><div className="rounded border-gray-300 dark:border-gray-700  px-4  h-24">
           <h2 className='text-center font-bold text-2xl mb-2 text-sky-800'> Adress 2</h2>
           <h2 className='text-center font-semibold'> Hawler   </h2>
           <h2 className='text-center font-semibold text-sm '>next to hawler citadel </h2>
-          <div className='w-[200px] h-[200px] bg-sky-800 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'> map here</div>
+          {/* <div className='w-[200px] h-[200px] bg-sky-800 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold'> map here</div> */}
         </div>
-        <div className="rounded border-gray-300 dark:border-gray-700  h-24">
+        <div className="rounded border-gray-300 dark:border-gray-700  px-4   h-24">
           <h2 className='text-center font-bold text-2xl mb-2 text-sky-800'> Adress 3</h2>
           <h2 className='text-center font-semibold'> Zakho   </h2>
           <h2 className='text-center font-semibold text-sm'>infront of pira delal</h2>
-          <div className='w-[200px] h-[200px] bg-sky-800 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold '>   map here</div>
+          {/* <div className='w-[200px] h-[200px] bg-sky-800 mx-auto mt-2 text-center flex justify-center items-center text-2xl font-semibold '>   map here</div> */}
 
         </div>
       </div>
