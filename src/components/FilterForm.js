@@ -4,7 +4,7 @@ export default function FilterForm() {
   return (
     <div className=' flex'>
 
-<form className='container  filterform  rounded lg:mt-6 xl:mb-[45px]  w-[500px] mx-auto  pb-6 mt-[17px] md:mt-[55px] mb-12 grid  place-items-center   '>
+<form className='container  filterform   rounded lg:mt-6 xl:mb-[45px]  w-[500px] mx-auto  pb-6 mt-[17px] md:mt-[55px] mb-12 grid  place-items-center   '>
 <div className='    w-[320px] h-[260px]  text-center  '>
   <h2 className='text-lg  text-white text-center font-sans border border-solid  rounded-xl mt-6  '>Search our extensive range of quality cars with prices to suit all budgets</h2>
 <select className='rounded w-[250px]  hover:bg-sky-700 mt-6 mb-3 bg-sky-800 text-white border-solid border border-sky-600' id="filterform">
